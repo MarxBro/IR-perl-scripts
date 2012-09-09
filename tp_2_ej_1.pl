@@ -13,9 +13,9 @@ $archivo_estadisticas = './salidas/estadisticas.txt';
 
 $archivo_frecuencias = './salidas/frecuencias.txt';
 
-#################
-### Principal ###
-#################
+#####################
+### Procesamiento ###
+#####################
 
 # Abrimos el directorio
 opendir (dir, $directorio_coleccion_gr) or die "No se pudo abrir";
@@ -30,7 +30,9 @@ while( $file = readdir( dir ) ) {
         open (IN,"$directorio_coleccion_gr/$file");
         print "Analizando archivo: $file\n";
         
-        # Para cada lines del archivo
+        $estadisticas{"cantidad_documentos_procesados"} += 1;
+        
+        # Para cada linea del archivo
         while( $linea = <IN> ) {
             
             chomp($linea);
@@ -49,57 +51,145 @@ while( $file = readdir( dir ) ) {
             $linea =~ s/:/ : /g;
             $linea =~ s/!/ ! /g;
             $linea =~ s/¡/ ¡ /g;
-            $linea =~ s/¿/ ¿ /g;
+            $linea =~ s/\¿/ \¿ /g;
             $linea =~ s/\?/ \? /g;
             $linea =~ s/\*/ \* /g;
             $linea =~ s/\|/ \| /g;
+            $linea =~ s/°/ ° /g;
+            $linea =~ s/=/ = /g;
+            $linea =~ s/&/ & /g;
+            $linea =~ s/\// \/ /g;
+            $linea =~ s/\/\// \/\/ /g;
+            $linea =~ s/-/ - /g;
             
             # Eliminamos caracteres que no nos interesa procesar
-            $linea =~ s/"/ /g;
-            $linea =~ s/'/ /g;
-            $linea =~ s/“/ /g;
-            $linea =~ s/‘/ /g;
-            $linea =~ s/’/ /g;
-            $linea =~ s/´/ /g;
-            
+            #            1234567 1234567
+            $linea =~ tr/"'“‘’´¨/       /;
             
             # Transformamos acentos a vocales comunes y otros caracteres
-            $linea =~ s/á/a/g;
-            $linea =~ s/Á/A/g;
-            $linea =~ s/é/e/g;
-            $linea =~ s/É/E/g;
-            $linea =~ s/í/i/g;
-            $linea =~ s/Í/I/g;
-            $linea =~ s/ó/o/g;
-            $linea =~ s/Ó/O/g;
-            $linea =~ s/ú/u/g;
-            $linea =~ s/Ú/U/g;
-            $linea =~ s/ñ/n/g;
-            $linea =~ s/Ñ/N/g;
+            $linea =~ tr/áÁéÉíÍóÓúÚñÑ/aAeEiIoOuUnN/;
             
+            # Pasamos todo a minuscula
+            $linea =~ tr/A-Z/a-z/;
             
             # Las palabras se separan por espacios
             @palabras = split(" ", $linea);
             
+            # Procesamos cada una de las palabras de la linea
             foreach $palabra ( @palabras ) {
                 
-                $frecuencias{$palabra} += 1;
+                # De la palabra eliminamos todos los espacios en blanco adicionales
+                $palabra =~ s/\s+/ /g;
+                
+                # Si termina con punto u otro caracter que tmb lo reemplaze
+                $palabra =~ s/\.+$//g;
+                $palabra =~ s/^\.+//g;
+                $palabra =~ s/\++$//g;
+                $palabra =~ s/^\++//g;
+                $palabra =~ s/\$+$//g;
+                $palabra =~ s/^\$+//g;
+                $palabra =~ s/\%+$//g;
+                $palabra =~ s/^\%+//g;
+                $palabra =~ s/\#+$//g;
+                $palabra =~ s/^\#+//g;
+                
+                # Calculo del TF
+                $frecuencias{$palabra}{"TF"} += 1;
+                
+                # Recogemos estadisticas de cantidad de terminos por documento
+                $estadisticas{"cantidad_terminos_documentos"}{$file} += 1;
+                
+                # Para despues calcular el DF
+                $frecuencias{$palabra}{$file} = 1;
                 
             }
             
         }
+        
+        close(IN);
     
     }
 
 }
 
+$estadisticas{"cantidad_terminos_extraidos"} = scalar(keys %frecuencias);
+
+$estadisticas{"promedio_terminos_por_documento"} =  $estadisticas{"cantidad_terminos_extraidos"} / $estadisticas{"cantidad_documentos_procesados"};
+
+# Calculo del DF
+foreach $termino (keys %frecuencias) {
+    
+    $df = 0;
+    
+	foreach $documento (keys %{$frecuencias{$termino}}) {
+        
+        $df += 1;
+        
+	}
+    
+    # Ignoramos el indice TF que no corresponde
+    $df = $df - 1;
+    
+    $estadisticas{"largo_promedio_terminos"} += length($termino);
+    
+    $frecuencias{$termino}{"DF"} = $df;
+    
+    # Calculamos la cantidad de documentos con TF = 1
+    
+    if ( $frecuencias{$termino}{"TF"} == 1 ) {
+        
+        $estadisticas{"cantidad_terminos_tf_uno"} += 1;
+        
+    }
+    
+}
+
+$estadisticas{"largo_promedio_terminos"} = int($estadisticas{"largo_promedio_terminos"} / $estadisticas{"cantidad_terminos_extraidos"});
+
+# Busco documento mas corto y mas largo
+$estadisticas{"terminos_documento_mas_largo"} = 0;
+$estadisticas{"terminos_documento_mas_corto"} = $estadisticas{"cantidad_terminos_extraidos"};
+
+foreach $documento (keys %{$estadisticas{"cantidad_terminos_documentos"}}) {
+    
+    if( $estadisticas{"terminos_documento_mas_largo"} < $estadisticas{"cantidad_terminos_documentos"}{$documento} ) {
+        
+        $estadisticas{"terminos_documento_mas_largo"} = $estadisticas{"cantidad_terminos_documentos"}{$documento};
+        $estadisticas{"nombre_documento_mas_largo"} = $documento;
+        
+    }
+    
+    if( $estadisticas{"terminos_documento_mas_corto"} > $estadisticas{"cantidad_terminos_documentos"}{$documento} ) {
+        
+        $estadisticas{"terminos_documento_mas_corto"} = $estadisticas{"cantidad_terminos_documentos"}{$documento};
+        $estadisticas{"nombre_documento_mas_corto"} = $documento;
+        
+    }
+    
+}
+
+###############
+### SALIDAS ###
+###############
+
+### TERMINOS.TXT
+
 # Abrimos el archivo de salida de terminos
 open(OUT, ">$archivo_terminos");
 
 # Teniendo procesada toda la coleccion
-foreach $key ( sort( keys %frecuencias ) ) {
+foreach $termino ( sort( keys %frecuencias ) ) {
             
-    print OUT "Clave: $key\tFrecuencia: ". $frecuencias{$key} . "\n";
-    
+    #print OUT "Termino: $key\tTF: ". $frecuencias{$key} . "\n";
+    printf(OUT "Termino: %-50s TF: %-5s  DF: %s\n", $termino, $frecuencias{$termino}{"TF"}, $frecuencias{$termino}{"DF"});
     
 }
+
+close(OUT);
+
+### ESTADISTICAS.TXT
+
+# Abrimos el archivo
+#open(OUT, ">$archivo_estadisticas");
+
+#close(OUT);
