@@ -30,7 +30,7 @@ while( $file = readdir( dir ) ) {
         open (IN,"$directorio_coleccion_gr/$file");
         print "Analizando archivo: $file\n";
         
-        $estadisticas{"cantidad_documentos_procesados"} += 1;
+        $estadisticas{"Cantidad de documentos procesados"} += 1;
         
         # Para cada linea del archivo
         while( $linea = <IN> ) {
@@ -97,7 +97,7 @@ while( $file = readdir( dir ) ) {
                 $frecuencias{$palabra}{"TF"} += 1;
                 
                 # Recogemos estadisticas de cantidad de terminos por documento
-                $estadisticas{"cantidad_terminos_documentos"}{$file} += 1;
+                $estadisticas{"cantidad_terminos_documentos"}{$file}{$palabra} += 1;
                 
                 # Para despues calcular el DF
                 $frecuencias{$palabra}{$file} = 1;
@@ -112,9 +112,9 @@ while( $file = readdir( dir ) ) {
 
 }
 
-$estadisticas{"cantidad_terminos_extraidos"} = scalar(keys %frecuencias);
+$estadisticas{"Cantidad de terminos extraidos"} = scalar(keys %frecuencias);
 
-$estadisticas{"promedio_terminos_por_documento"} =  $estadisticas{"cantidad_terminos_extraidos"} / $estadisticas{"cantidad_documentos_procesados"};
+$estadisticas{"Promedio de terminos por documento"} =  int($estadisticas{"Cantidad de terminos extraidos"} / $estadisticas{"Cantidad de documentos procesados"});
 
 # Calculo del DF
 foreach $termino (keys %frecuencias) {
@@ -130,7 +130,7 @@ foreach $termino (keys %frecuencias) {
     # Ignoramos el indice TF que no corresponde
     $df = $df - 1;
     
-    $estadisticas{"largo_promedio_terminos"} += length($termino);
+    $estadisticas{"Largo promedio de un termino"} += length($termino);
     
     $frecuencias{$termino}{"DF"} = $df;
     
@@ -138,31 +138,34 @@ foreach $termino (keys %frecuencias) {
     
     if ( $frecuencias{$termino}{"TF"} == 1 ) {
         
-        $estadisticas{"cantidad_terminos_tf_uno"} += 1;
+        $estadisticas{"Cantidad de terminos con frecuencia 1 en la coleccion"} += 1;
         
     }
     
 }
 
-$estadisticas{"largo_promedio_terminos"} = int($estadisticas{"largo_promedio_terminos"} / $estadisticas{"cantidad_terminos_extraidos"});
+$estadisticas{"Largo promedio de un termino"} = int($estadisticas{"Largo promedio de un termino"} / $estadisticas{"Cantidad de terminos extraidos"});
 
 # Busco documento mas corto y mas largo
-$estadisticas{"terminos_documento_mas_largo"} = 0;
-$estadisticas{"terminos_documento_mas_corto"} = $estadisticas{"cantidad_terminos_extraidos"};
+$estadisticas{"Cantidad de terminos del documento mas largo"} = 0;
+$estadisticas{"Cantidad de terminos del documento mas corto"} = $estadisticas{"Cantidad de terminos extraidos"};
 
 foreach $documento (keys %{$estadisticas{"cantidad_terminos_documentos"}}) {
     
-    if( $estadisticas{"terminos_documento_mas_largo"} < $estadisticas{"cantidad_terminos_documentos"}{$documento} ) {
+    # Calculamos la cantidad de terminos para el documento actual
+    $cantidad_terminos_documento = scalar(keys %{$estadisticas{"cantidad_terminos_documentos"}{$documento}});
+    
+    if( $estadisticas{"Cantidad de terminos del documento mas largo"} < $cantidad_terminos_documento ) {
         
-        $estadisticas{"terminos_documento_mas_largo"} = $estadisticas{"cantidad_terminos_documentos"}{$documento};
-        $estadisticas{"nombre_documento_mas_largo"} = $documento;
+        $estadisticas{"Cantidad de terminos del documento mas largo"} = $cantidad_terminos_documento;
+        $estadisticas{"Nombre del documento mas largo"} = $documento;
         
     }
     
-    if( $estadisticas{"terminos_documento_mas_corto"} > $estadisticas{"cantidad_terminos_documentos"}{$documento} ) {
+    if( $estadisticas{"Cantidad de terminos del documento mas corto"} > $cantidad_terminos_documento ) {
         
-        $estadisticas{"terminos_documento_mas_corto"} = $estadisticas{"cantidad_terminos_documentos"}{$documento};
-        $estadisticas{"nombre_documento_mas_corto"} = $documento;
+        $estadisticas{"Cantidad de terminos del documento mas corto"} = $cantidad_terminos_documento;
+        $estadisticas{"Nombre del documento mas corto"} = $documento;
         
     }
     
@@ -190,6 +193,29 @@ close(OUT);
 ### ESTADISTICAS.TXT
 
 # Abrimos el archivo
-#open(OUT, ">$archivo_estadisticas");
+open(OUT, ">$archivo_estadisticas");
 
-#close(OUT);
+print OUT "Estadisticas de la coleccion:\n";
+print OUT "=============================\n";
+print OUT "Cantidad de documentos procesados: $estadisticas{'Cantidad de documentos procesados'}\n";
+print OUT "Cantidad de terminos extraidos: $estadisticas{'Cantidad de terminos extraidos'}\n";
+print OUT "Promedio de terminos por documento: $estadisticas{'Promedio de terminos por documento'}\n";
+print OUT "Largo promedio de un termino: $estadisticas{'Largo promedio de un termino'}\n";
+print OUT "Nombre del documento mas largo: $estadisticas{'Nombre del documento mas largo'}\n";
+print OUT "Cantidad de terminos del documento mas largo: $estadisticas{'Cantidad de terminos del documento mas largo'}\n";
+print OUT "Nombre del documento mas corto: $estadisticas{'Nombre del documento mas corto'}\n";
+print OUT "Cantidad de terminos del documento mas corto: $estadisticas{'Cantidad de terminos del documento mas corto'}\n";
+print OUT "Cantidad de terminos con frecuencia 1 en la coleccion: $estadisticas{'Cantidad de terminos con frecuencia 1 en la coleccion'}\n";
+print OUT "\n";
+
+#~ foreach $estadistica (keys %estadisticas) {
+    #~ Este codigo funciona pero deja el informe desordenado :-S
+    #~ if( $estadistica ne "cantidad_terminos_documentos" ) {
+        #~ 
+        #~ print OUT "$estadistica: $estadisticas{$estadistica}\n";
+        #~ 
+    #~ }
+    #~ 
+#~ }
+
+close(OUT);
