@@ -73,6 +73,10 @@ while( $file = readdir( dir ) ) {
 
 }
 
+#########################
+### Pos-procesamiento ###
+#########################
+
 # Armamos un arreglo con las claves ordenadas por la TF en forma descendente, para el punto c) del TP
 @terminos_ordenados_por_frecuencias = sort { $frecuencias{$b}{"TF"} <=> $frecuencias{$a}{"TF"} } keys %frecuencias;
 
