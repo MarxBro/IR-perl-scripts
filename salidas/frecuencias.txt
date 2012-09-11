@@ -1,25 +1,25 @@
 Los 10 terminos mas frencuentes de la coleccion:
 ================================================
-: 3854
 document: 2708
-universidad: 2452
-color: 1924
-nacional: 1590
-ar: 1568
-edu: 1426
-2012: 1385
-facultad: 1377
-2011: 1118
+universidad: 2446
+-1: 2254
+s: 1943
+nacional: 1591
+ar: 1564
+--: 1473
+edu: 1423
+color: 1390
+facultad: 1375
 
 Los 10 terminos menos frencuentes de la coleccion:
 ==================================================
+estructura-funcinen: 1
+pionero: 1
+depolnuticas: 1
 crct: 1
 4222305: 1
 aeroespaciales: 1
 gisele: 1
 hamberg: 1
-cinematograafico: 1
 42627467: 1
-salian: 1
 unveiled: 1
-isa: 1

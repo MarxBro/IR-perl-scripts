@@ -1,6 +1,10 @@
 #!/usr/bin/perl
 system(clear);
 
+#use encoding 'utf8';
+use lib('lib/');
+use IR::General;
+
 #################
 ### Variables ###  
 #################
@@ -12,10 +16,6 @@ $archivo_terminos = './salidas/terminos.txt';
 $archivo_estadisticas = './salidas/estadisticas.txt';
 
 $archivo_frecuencias = './salidas/frecuencias.txt';
-
-# Tratamiento de palabras vacias
-$ignorar_palabras_vacias = 1; # 0: False; 1: True;
-@palabras_vacias = [qw(el la lo los las este esta ese esa en un no x n a d p e k o stm_aix raquo al de del que y i para se su es con por una var if font function size 0 1 2 3 4 5 6 7 8 9 " ' “ ‘ ’ ´ ¨ , ; : = - \) \( / \\ [ ] { } | & ? ¿ ! * < >)];
 
 #####################
 ### Procesamiento ###
@@ -39,73 +39,18 @@ while( $file = readdir( dir ) ) {
         # Para cada linea del archivo
         while( $linea = <IN> ) {
             
-            chomp($linea);
+            # Preparamos la linea para generar los token
+            $linea = preparar_linea($linea);
             
-            # Aca definimos que consideramos una palabra de nuestro vocabulario
+            # Tokenizamos la linea
+            @tokens = tokenizar($linea);
             
-            # Agregamos separacion de espacios a caracteres que nos interesa ignorar en los tokens
-            $linea =~ s/\(/ \( /g;
-            $linea =~ s/\)/ \) /g;
-            $linea =~ s/\[/ \[ /g;
-            $linea =~ s/\]/ \] /g;
-            $linea =~ s/\{/ \{ /g;
-            $linea =~ s/\}/ \} /g;
-            $linea =~ s/;/ ; /g;
-            $linea =~ s/,/ , /g;
-            $linea =~ s/:/ : /g;
-            $linea =~ s/!/ ! /g;
-            $linea =~ s/¡/ ¡ /g;
-            $linea =~ s/\¿/ \¿ /g;
-            $linea =~ s/\?/ \? /g;
-            $linea =~ s/\*/ \* /g;
-            $linea =~ s/\|/ \| /g;
-            $linea =~ s/°/ ° /g;
-            $linea =~ s/=/ = /g;
-            $linea =~ s/&/ & /g;
-            $linea =~ s/\// \/ /g;
-            $linea =~ s/\/\// \/\/ /g;
-            $linea =~ s/\-/ \- /g;
-            
-            # Eliminamos caracteres que no nos interesa procesar
-            #            0        1                  2 |0        1         2  
-            #            12345678901 2 3 4 5 6 7 8 9 01 123456789012345678901
-            #$linea =~ tr/"'“‘’´¨,;:=\-\)\(\/\[\]\{\}\|&/                     /;
-            $linea =~ tr/"+#%.<>\\\//         /;
-            
-            # Transformamos acentos a vocales comunes y otros caracteres
-            $linea =~ tr/áÁéÉíÍóÓúÚñÑ/aAeEiIoOuUnN/;
-            
-            # Pasamos todo a minuscula
-            $linea =~ tr/A-Z/a-z/;
-            
-            # Las palabras se separan por espacios
-            @palabras = split(" ", $linea);
-            
-            # Procesamos cada una de las palabras de la linea
-            foreach $palabra ( @palabras ) {
+            # Procesamos cada uno de los tokens de la linea
+            foreach $palabra ( @tokens ) {
                 
-                # De la palabra eliminamos todos los espacios
-                $palabra =~ s/\s//g;
+                $palabra = limpiar_token($palabra);
                 
-                # Si termina con punto u otro caracter que tmb lo reemplaze
-                $palabra =~ s/\.+$//g;
-                $palabra =~ s/^\.+//g;
-                $palabra =~ s/\++$//g;
-                $palabra =~ s/^\++//g;
-                $palabra =~ s/\$+$//g;
-                $palabra =~ s/^\$+//g;
-                $palabra =~ s/\%+$//g;
-                $palabra =~ s/^\%+//g;
-                $palabra =~ s/\#+$//g;
-                $palabra =~ s/^\#+//g;
-                $palabra =~ s/\"$//g;
-                $palabra =~ s/^\"//g;
-                $palabra =~ s/\'$//g;
-                $palabra =~ s/^\'//g;
-                
-                
-                
-                if( ( not $ignorar_palabras_vacias ) and ( not $palabra eq " " ) ) {
+                if ( token_valido( $palabra ) ) {
                     
                     # Calculo del TF
                     $frecuencias{$palabra}{"TF"} += 1;
@@ -115,21 +60,6 @@ while( $file = readdir( dir ) ) {
                     
                     # Para despues calcular el DF
                     $frecuencias{$palabra}{$file} = 1;
-                    
-                } else {
-                    
-                    if ( ( not ( $palabra ~~ @palabras_vacias ) ) and ( not $palabra eq " " ) ) {
-                        
-                        # Calculo del TF
-                        $frecuencias{$palabra}{"TF"} += 1;
-                        
-                        # Recogemos estadisticas de cantidad de terminos por documento
-                        $estadisticas{"cantidad_terminos_documentos"}{$file}{$palabra} += 1;
-                        
-                        # Para despues calcular el DF
-                        $frecuencias{$palabra}{$file} = 1;
-                        
-                    }
                     
                 }
                 
@@ -153,13 +83,7 @@ $estadisticas{"Promedio de terminos por documento"} =  int($estadisticas{"Cantid
 # Calculo del DF
 foreach $termino (keys %frecuencias) {
     
-    $df = 0;
-    
-	foreach $documento (keys %{$frecuencias{$termino}}) {
-        
-        $df += 1;
-        
-	}
+    $df = scalar(keys %{$frecuencias{$termino}});
     
     # Ignoramos el indice TF que no corresponde
     $df = $df - 1;
@@ -217,7 +141,11 @@ open(OUT, ">$archivo_terminos");
 # Teniendo procesada toda la coleccion
 foreach $termino ( sort( keys %frecuencias ) ) {
     
-    printf(OUT "Termino: %-50s TF: %-5s  DF: %s\n", $termino, $frecuencias{$termino}{"TF"}, $frecuencias{$termino}{"DF"});
+    #print OUT "Termino: $termino TF: $frecuencias{$termino}{'TF'}  DF: $frecuencias{$termino}{'DF'}\n";
+    $salida = sprintf("Termino: %-50s TF: %-5s  DF: %s\n", $termino, $frecuencias{$termino}{"TF"}, $frecuencias{$termino}{"DF"});
+    #print $salida;
+    #printf(OUT "Termino: %-50s TF: %-5s  DF: %s\n", $termino, $frecuencias{$termino}{"TF"}, $frecuencias{$termino}{"DF"});
+    print OUT $salida;
     
 }
 
