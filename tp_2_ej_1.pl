@@ -13,6 +13,10 @@ $archivo_estadisticas = './salidas/estadisticas.txt';
 
 $archivo_frecuencias = './salidas/frecuencias.txt';
 
+# Tratamiento de palabras vacias
+$ignorar_palabras_vacias = 1; # 0: False; 1: True;
+@palabras_vacias = [qw(el la lo los las este esta ese esa en un no x n a d p e k o stm_aix raquo al de del que y i para se su es con por una var if font function size 0 1 2 3 4 5 6 7 8 9 " ' “ ‘ ’ ´ ¨ , ; : = - \) \( / \\ [ ] { } | & ? ¿ ! * < >)];
+
 #####################
 ### Procesamiento ###
 #####################
@@ -60,11 +64,12 @@ while( $file = readdir( dir ) ) {
             $linea =~ s/&/ & /g;
             $linea =~ s/\// \/ /g;
             $linea =~ s/\/\// \/\/ /g;
-            $linea =~ s/-/ - /g;
+            $linea =~ s/\-/ \- /g;
             
             # Eliminamos caracteres que no nos interesa procesar
-            #            1234567 1234567
-            $linea =~ tr/"'“‘’´¨/       /;
+            #            0        1                  2 |0        1         2  
+            #            12345678901 2 3 4 5 6 7 8 9 01 123456789012345678901
+            #$linea =~ tr/"'“‘’´¨,;:=\-\)\(\/\[\]\{\}\|&/                     /;
             
             # Transformamos acentos a vocales comunes y otros caracteres
             $linea =~ tr/áÁéÉíÍóÓúÚñÑ/aAeEiIoOuUnN/;
@@ -92,15 +97,38 @@ while( $file = readdir( dir ) ) {
                 $palabra =~ s/^\%+//g;
                 $palabra =~ s/\#+$//g;
                 $palabra =~ s/^\#+//g;
+                $palabra =~ s/\"$//g;
+                $palabra =~ s/^\"//g;
+                $palabra =~ s/\'$//g;
+                $palabra =~ s/^\'//g;
                 
-                # Calculo del TF
-                $frecuencias{$palabra}{"TF"} += 1;
-                
-                # Recogemos estadisticas de cantidad de terminos por documento
-                $estadisticas{"cantidad_terminos_documentos"}{$file}{$palabra} += 1;
-                
-                # Para despues calcular el DF
-                $frecuencias{$palabra}{$file} = 1;
+                if( not $ignorar_palabras_vacias ) {
+                    
+                    # Calculo del TF
+                    $frecuencias{$palabra}{"TF"} += 1;
+                    
+                    # Recogemos estadisticas de cantidad de terminos por documento
+                    $estadisticas{"cantidad_terminos_documentos"}{$file}{$palabra} += 1;
+                    
+                    # Para despues calcular el DF
+                    $frecuencias{$palabra}{$file} = 1;
+                    
+                } else {
+                    
+                    if ( not ( $palabra ~~ @palabras_vacias ) ) {
+                        
+                        # Calculo del TF
+                        $frecuencias{$palabra}{"TF"} += 1;
+                        
+                        # Recogemos estadisticas de cantidad de terminos por documento
+                        $estadisticas{"cantidad_terminos_documentos"}{$file}{$palabra} += 1;
+                        
+                        # Para despues calcular el DF
+                        $frecuencias{$palabra}{$file} = 1;
+                        
+                    }
+                    
+                }
                 
             }
             
@@ -111,6 +139,9 @@ while( $file = readdir( dir ) ) {
     }
 
 }
+
+# Armamos un arreglo con las claves ordenadas por la TF en forma descendente, para el punto c) del TP
+@terminos_ordenados_por_frecuencias = sort { $frecuencias{$b}{"TF"} <=> $frecuencias{$a}{"TF"} } keys %frecuencias;
 
 $estadisticas{"Cantidad de terminos extraidos"} = scalar(keys %frecuencias);
 
@@ -208,14 +239,33 @@ print OUT "Cantidad de terminos del documento mas corto: $estadisticas{'Cantidad
 print OUT "Cantidad de terminos con frecuencia 1 en la coleccion: $estadisticas{'Cantidad de terminos con frecuencia 1 en la coleccion'}\n";
 print OUT "\n";
 
-#~ foreach $estadistica (keys %estadisticas) {
-    #~ Este codigo funciona pero deja el informe desordenado :-S
-    #~ if( $estadistica ne "cantidad_terminos_documentos" ) {
-        #~ 
-        #~ print OUT "$estadistica: $estadisticas{$estadistica}\n";
-        #~ 
-    #~ }
-    #~ 
-#~ }
+close(OUT);
+
+### FRECUENCIAS.TXT
+
+# Abrimos el archivo
+open(OUT, ">$archivo_frecuencias");
+
+print OUT "Los 10 terminos mas frencuentes de la coleccion:\n";
+print OUT "================================================\n";
+
+for ($i=0; $i<=9; $i++)
+{   
+    $elem = @terminos_ordenados_por_frecuencias[$i];
+    print OUT "$elem: $frecuencias{$elem}{'TF'}\n";
+}
+
+print OUT "\nLos 10 terminos menos frencuentes de la coleccion:\n";
+print OUT "==================================================\n";
+
+$desde = scalar(@terminos_ordenados_por_frecuencia) - 10;
+$hasta = scalar(@terminos_ordenados_por_frecuencia) - 1;
+
+for ($i=$desde; $i<=$hasta; $i++)
+{   
+    $elem = @terminos_ordenados_por_frecuencias[$i];
+    print OUT "$elem: $frecuencias{$elem}{'TF'}\n";
+}
 
 close(OUT);
+

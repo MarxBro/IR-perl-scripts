@@ -1,0 +1,25 @@
+Los 10 terminos mas frencuentes de la coleccion:
+================================================
+: 9870
+universidad: 2448
+color: 1893
+nacional: 1590
+2012: 1370
+facultad: 1359
+ciencias: 1115
+2011: 1092
+http: 946
+como: 942
+
+Los 10 terminos menos frencuentes de la coleccion:
+==================================================
+4222305: 1
+_vti_inf.htmlmiaircoles: 1
+aeroespaciales: 1
+gisele: 1
+hamberg: 1
+cinematograafico: 1
+42627467: 1
+salian: 1
+unveiled: 1
+isa: 1
