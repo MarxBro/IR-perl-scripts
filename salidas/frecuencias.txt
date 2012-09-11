@@ -1,20 +1,20 @@
 Los 10 terminos mas frencuentes de la coleccion:
 ================================================
-: 9870
-universidad: 2448
-color: 1893
+: 3854
+document: 2708
+universidad: 2452
+color: 1924
 nacional: 1590
-2012: 1370
-facultad: 1359
-ciencias: 1115
-2011: 1092
-http: 946
-como: 942
+ar: 1568
+edu: 1426
+2012: 1385
+facultad: 1377
+2011: 1118
 
 Los 10 terminos menos frencuentes de la coleccion:
 ==================================================
+crct: 1
 4222305: 1
-_vti_inf.htmlmiaircoles: 1
 aeroespaciales: 1
 gisele: 1
 hamberg: 1

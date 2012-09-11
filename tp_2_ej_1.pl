@@ -70,6 +70,7 @@ while( $file = readdir( dir ) ) {
             #            0        1                  2 |0        1         2  
             #            12345678901 2 3 4 5 6 7 8 9 01 123456789012345678901
             #$linea =~ tr/"'“‘’´¨,;:=\-\)\(\/\[\]\{\}\|&/                     /;
+            $linea =~ tr/"+#%.<>\\\//         /;
             
             # Transformamos acentos a vocales comunes y otros caracteres
             $linea =~ tr/áÁéÉíÍóÓúÚñÑ/aAeEiIoOuUnN/;
@@ -83,8 +84,8 @@ while( $file = readdir( dir ) ) {
             # Procesamos cada una de las palabras de la linea
             foreach $palabra ( @palabras ) {
                 
-                # De la palabra eliminamos todos los espacios en blanco adicionales
-                $palabra =~ s/\s+/ /g;
+                # De la palabra eliminamos todos los espacios
+                $palabra =~ s/\s//g;
                 
                 # Si termina con punto u otro caracter que tmb lo reemplaze
                 $palabra =~ s/\.+$//g;
@@ -102,7 +103,9 @@ while( $file = readdir( dir ) ) {
                 $palabra =~ s/\'$//g;
                 $palabra =~ s/^\'//g;
                 
-                if( not $ignorar_palabras_vacias ) {
+                
+                
+                if( ( not $ignorar_palabras_vacias ) and ( not $palabra eq " " ) ) {
                     
                     # Calculo del TF
                     $frecuencias{$palabra}{"TF"} += 1;
@@ -115,7 +118,7 @@ while( $file = readdir( dir ) ) {
                     
                 } else {
                     
-                    if ( not ( $palabra ~~ @palabras_vacias ) ) {
+                    if ( ( not ( $palabra ~~ @palabras_vacias ) ) and ( not $palabra eq " " ) ) {
                         
                         # Calculo del TF
                         $frecuencias{$palabra}{"TF"} += 1;
@@ -213,8 +216,7 @@ open(OUT, ">$archivo_terminos");
 
 # Teniendo procesada toda la coleccion
 foreach $termino ( sort( keys %frecuencias ) ) {
-            
-    #print OUT "Termino: $key\tTF: ". $frecuencias{$key} . "\n";
+    
     printf(OUT "Termino: %-50s TF: %-5s  DF: %s\n", $termino, $frecuencias{$termino}{"TF"}, $frecuencias{$termino}{"DF"});
     
 }
