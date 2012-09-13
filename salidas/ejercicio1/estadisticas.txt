@@ -1,12 +1,12 @@
 Estadisticas de la coleccion:
 =============================
 Cantidad de documentos procesados: 591
-Cantidad de terminos extraidos: 37589
+Cantidad de terminos extraidos: 37244
 Promedio de terminos por documento: 63
 Largo promedio de un termino: 8
 Nombre del documento mas largo: extensiondigital.fpsico.unr.edu.ar.txt
-Cantidad de terminos del documento mas largo: 8043
+Cantidad de terminos del documento mas largo: 7736
 Nombre del documento mas corto: campus.fveter.unr.edu.ar.txt
 Cantidad de terminos del documento mas corto: 1
-Cantidad de terminos con frecuencia 1 en la coleccion: 17948
+Cantidad de terminos con frecuencia 1 en la coleccion: 17927
 

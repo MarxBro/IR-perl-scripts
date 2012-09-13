@@ -1,15 +1,15 @@
 Los 10 terminos mas frencuentes de la coleccion:
 ================================================
-del: 4839
-que: 4585
-los: 3955
-las: 3224
-para: 3064
 document: 2709
-var: 2522
 universidad: 2448
-por: 2335
-con: 2231
+stm: 1752
+nacional: 1591
+edu: 1423
+color: 1395
+facultad: 1380
+aix: 1231
+2012: 1190
+ciencias: 1119
 
 Los 10 terminos menos frencuentes de la coleccion:
 ==================================================

@@ -46,7 +46,7 @@ Se encarga de dejar la linea del archivo lista para ser tokenizada en un paso po
 ### VARIABLES DEL MODULO
 
 # Tratamiento de palabras vacias
-$ignorar_palabras_vacias = 1; # 0: False; 1: True;
+$aceptar_palabras_vacias = 0; # 0: False; 1: True;
 @palabras_vacias = palabras_vacias();
 
 $tamano_minimo = 2;
@@ -183,7 +183,7 @@ sub es_palabra_vacia {
     
     my $token = shift;
     
-    if( $ignorar_palabras_vacias ) {
+    if( $aceptar_palabras_vacias ) {
         
         return 0;
         

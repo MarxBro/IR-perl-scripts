@@ -11,11 +11,11 @@ use IR::General;
 
 $directorio_coleccion_gr = './colecciones/T12012-gr';
 
-$archivo_terminos = './salidas/terminos.txt';
+$archivo_terminos = './salidas/ejercicio1/terminos.txt';
 
-$archivo_estadisticas = './salidas/estadisticas.txt';
+$archivo_estadisticas = './salidas/ejercicio1/estadisticas.txt';
 
-$archivo_frecuencias = './salidas/frecuencias.txt';
+$archivo_frecuencias = './salidas/ejercicio1/frecuencias.txt';
 
 #####################
 ### Procesamiento ###

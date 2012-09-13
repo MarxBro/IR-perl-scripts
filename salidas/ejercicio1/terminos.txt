@@ -4757,7 +4757,6 @@ Termino: abusivo                                            TF: 1      DF: 1
 Termino: abusivos                                           TF: 1      DF: 1
 Termino: abuso                                              TF: 9      DF: 4
 Termino: abyectos                                           TF: 1      DF: 1
-Termino: aca                                                TF: 1      DF: 1
 Termino: acaba                                              TF: 1      DF: 1
 Termino: acababa                                            TF: 3      DF: 1
 Termino: acabamos                                           TF: 2      DF: 1
@@ -5098,7 +5097,6 @@ Termino: actualizarn                                        TF: 1      DF: 1
 Termino: actualizaron                                       TF: 1      DF: 1
 Termino: actualizn                                          TF: 1      DF: 1
 Termino: actualizne                                         TF: 1      DF: 1
-Termino: actualmente                                        TF: 39     DF: 25
 Termino: actuando                                           TF: 2      DF: 2
 Termino: actuar                                             TF: 11     DF: 7
 Termino: actuarn                                            TF: 1      DF: 1
@@ -5183,12 +5181,10 @@ Termino: adecuarn                                           TF: 1      DF: 1
 Termino: adeda                                              TF: 2      DF: 1
 Termino: adela                                              TF: 2      DF: 2
 Termino: adelantarse                                        TF: 1      DF: 1
-Termino: adelante                                           TF: 36     DF: 20
 Termino: adelantn                                           TF: 1      DF: 1
 Termino: adelantos                                          TF: 7      DF: 3
 Termino: adelina                                            TF: 1      DF: 1
 Termino: adem                                               TF: 2      DF: 2
-Termino: ademas                                             TF: 2      DF: 2
 Termino: ademn                                              TF: 114    DF: 48
 Termino: adenag                                             TF: 7      DF: 1
 Termino: adentramos                                         TF: 1      DF: 1
@@ -5622,7 +5618,6 @@ Termino: ahnu                                               TF: 20     DF: 3
 Termino: ahnunco                                            TF: 1      DF: 1
 Termino: ahogarlas                                          TF: 1      DF: 1
 Termino: ahon                                               TF: 1      DF: 1
-Termino: ahora                                              TF: 45     DF: 15
 Termino: ahorro                                             TF: 2      DF: 2
 Termino: aht                                                TF: 1      DF: 1
 Termino: ahumada                                            TF: 1      DF: 1
@@ -5807,18 +5802,12 @@ Termino: algarrobal                                         TF: 1      DF: 1
 Termino: algarrobo                                          TF: 1      DF: 1
 Termino: algebra                                            TF: 7      DF: 4
 Termino: algn                                               TF: 23     DF: 13
-Termino: algo                                               TF: 63     DF: 8
 Termino: algodnen                                           TF: 5      DF: 3
 Termino: algodonero                                         TF: 1      DF: 1
 Termino: algorithm                                          TF: 2      DF: 2
 Termino: algorithms                                         TF: 2      DF: 1
 Termino: algoritmos                                         TF: 6      DF: 5
 Termino: alguien                                            TF: 18     DF: 2
-Termino: algun                                              TF: 1      DF: 1
-Termino: alguna                                             TF: 43     DF: 22
-Termino: algunas                                            TF: 75     DF: 33
-Termino: alguno                                             TF: 15     DF: 11
-Termino: algunos                                            TF: 79     DF: 31
 Termino: ali                                                TF: 6      DF: 1
 Termino: aliados                                            TF: 1      DF: 1
 Termino: alianza                                            TF: 6      DF: 3
@@ -5856,7 +5845,6 @@ Termino: alinearse                                          TF: 1      DF: 1
 Termino: alivia                                             TF: 1      DF: 1
 Termino: aliviar                                            TF: 1      DF: 1
 Termino: all                                                TF: 340    DF: 78
-Termino: alla                                               TF: 1      DF: 1
 Termino: allegar                                            TF: 1      DF: 1
 Termino: allegretti                                         TF: 1      DF: 1
 Termino: allegretticorreo                                   TF: 1      DF: 1
@@ -5901,7 +5889,6 @@ Termino: alquiler                                           TF: 1      DF: 1
 Termino: alquno                                             TF: 1      DF: 1
 Termino: already                                            TF: 1      DF: 1
 Termino: alreadyfocused                                     TF: 4      DF: 2
-Termino: alrededor                                          TF: 11     DF: 9
 Termino: alrededores                                        TF: 4      DF: 3
 Termino: alsina                                             TF: 3      DF: 1
 Termino: also                                               TF: 5      DF: 3
@@ -6040,7 +6027,6 @@ Termino: ambito                                             TF: 2      DF: 2
 Termino: ambitos                                            TF: 7      DF: 1
 Termino: ambivalencia                                       TF: 3      DF: 1
 Termino: ambivalente                                        TF: 2      DF: 1
-Termino: ambos                                              TF: 17     DF: 9
 Termino: ambrogetti                                         TF: 1      DF: 1
 Termino: ambrosi                                            TF: 4      DF: 1
 Termino: ambrosi10                                          TF: 1      DF: 1
@@ -6314,7 +6300,6 @@ Termino: answer                                             TF: 1      DF: 1
 Termino: ant                                                TF: 2      DF: 2
 Termino: antagnonica                                        TF: 2      DF: 1
 Termino: antartida                                          TF: 1      DF: 1
-Termino: ante                                               TF: 52     DF: 24
 Termino: ante-proyecto                                      TF: 1      DF: 1
 Termino: antecede                                           TF: 2      DF: 2
 Termino: anteceden                                          TF: 1      DF: 1
@@ -6328,7 +6313,6 @@ Termino: antenas                                            TF: 5      DF: 4
 Termino: anteojos                                           TF: 3      DF: 1
 Termino: antepanus                                          TF: 1      DF: 1
 Termino: anteproyecto                                       TF: 2      DF: 1
-Termino: anterior                                           TF: 69     DF: 29
 Termino: anteriores                                         TF: 59     DF: 25
 Termino: anterioresa                                        TF: 1      DF: 1
 Termino: anterioreslic                                      TF: 1      DF: 1
@@ -6336,7 +6320,6 @@ Termino: anteriorestrabajos                                 TF: 4      DF: 1
 Termino: anterioridad                                       TF: 1      DF: 1
 Termino: anteriormente                                      TF: 4      DF: 4
 Termino: anteriorsiguiente                                  TF: 1      DF: 1
-Termino: antes                                              TF: 71     DF: 29
 Termino: anthony                                            TF: 1      DF: 1
 Termino: anthropology                                       TF: 3      DF: 1
 Termino: anti                                               TF: 1      DF: 1
@@ -6458,7 +6441,6 @@ Termino: apartado                                           TF: 8      DF: 5
 Termino: apartados                                          TF: 2      DF: 2
 Termino: apartamento                                        TF: 1      DF: 1
 Termino: apartamentos                                       TF: 8      DF: 1
-Termino: aparte                                             TF: 6      DF: 5
 Termino: apartments                                         TF: 7      DF: 1
 Termino: apasionaba                                         TF: 1      DF: 1
 Termino: apasionada                                         TF: 1      DF: 1
@@ -6475,7 +6457,6 @@ Termino: apdiv8                                             TF: 1      DF: 1
 Termino: apelacinen                                         TF: 1      DF: 1
 Termino: apelar                                             TF: 1      DF: 1
 Termino: apellido                                           TF: 48     DF: 15
-Termino: apenas                                             TF: 2      DF: 2
 Termino: apercibimiento                                     TF: 3      DF: 1
 Termino: apertura                                           TF: 44     DF: 27
 Termino: apesar                                             TF: 1      DF: 1
@@ -6615,7 +6596,6 @@ Termino: aprox                                              TF: 2      DF: 2
 Termino: aproximacinen                                      TF: 7      DF: 5
 Termino: aproximacinon                                      TF: 2      DF: 1
 Termino: aproximaciones                                     TF: 2      DF: 2
-Termino: aproximadamente                                    TF: 16     DF: 9
 Termino: aproximado                                         TF: 2      DF: 2
 Termino: aproximan                                          TF: 1      DF: 1
 Termino: aproximarnos                                       TF: 2      DF: 2
@@ -6645,12 +6625,6 @@ Termino: apuntes                                            TF: 2      DF: 2
 Termino: aqu                                                TF: 3      DF: 3
 Termino: aquarius                                           TF: 1      DF: 1
 Termino: aquatic                                            TF: 1      DF: 1
-Termino: aquel                                              TF: 12     DF: 5
-Termino: aquella                                            TF: 2      DF: 1
-Termino: aquellas                                           TF: 24     DF: 17
-Termino: aquello                                            TF: 33     DF: 6
-Termino: aquellos                                           TF: 77     DF: 32
-Termino: aqui                                               TF: 17     DF: 9
 Termino: aquila                                             TF: 1      DF: 1
 Termino: aquino                                             TF: 1      DF: 1
 Termino: aquipesca                                          TF: 1      DF: 1
@@ -7025,7 +6999,6 @@ Termino: asesorformado                                      TF: 1      DF: 1
 Termino: asesornu                                           TF: 1      DF: 1
 Termino: asesornua                                          TF: 3      DF: 3
 Termino: asfalto                                            TF: 1      DF: 1
-Termino: asi                                                TF: 4      DF: 2
 Termino: asia                                               TF: 11     DF: 6
 Termino: asian                                              TF: 1      DF: 1
 Termino: aside                                              TF: 1      DF: 1
@@ -7054,7 +7027,6 @@ Termino: asimilacinen                                       TF: 3      DF: 2
 Termino: asimilados                                         TF: 1      DF: 1
 Termino: asimilando                                         TF: 1      DF: 1
 Termino: asimilar                                           TF: 1      DF: 1
-Termino: asimismo                                           TF: 41     DF: 19
 Termino: asimnetrica                                        TF: 1      DF: 1
 Termino: asincrnenico                                       TF: 1      DF: 1
 Termino: asistan                                            TF: 1      DF: 1
@@ -7284,11 +7256,9 @@ Termino: aumentada                                          TF: 1      DF: 1
 Termino: aumentar                                           TF: 30     DF: 9
 Termino: aumento                                            TF: 5      DF: 5
 Termino: aumentos                                           TF: 1      DF: 1
-Termino: aun                                                TF: 7      DF: 2
 Termino: aunada                                             TF: 1      DF: 1
 Termino: aunar                                              TF: 1      DF: 1
 Termino: aunaron                                            TF: 1      DF: 1
-Termino: aunque                                             TF: 26     DF: 10
 Termino: aurelio                                            TF: 1      DF: 1
 Termino: ausa                                               TF: 1      DF: 1
 Termino: ausa2011conv2                                      TF: 1      DF: 1
@@ -7510,7 +7480,6 @@ Termino: ayala                                              TF: 3      DF: 3
 Termino: aybar                                              TF: 3      DF: 2
 Termino: ayelen                                             TF: 4      DF: 1
 Termino: ayelnen                                            TF: 1      DF: 1
-Termino: ayer                                               TF: 11     DF: 7
 Termino: aylen                                              TF: 4      DF: 1
 Termino: ayllon                                             TF: 1      DF: 1
 Termino: aymara                                             TF: 1      DF: 1
@@ -7639,7 +7608,6 @@ Termino: bajan                                              TF: 1      DF: 1
 Termino: bajar                                              TF: 18     DF: 10
 Termino: bajas                                              TF: 2      DF: 2
 Termino: bajisimo                                           TF: 1      DF: 1
-Termino: bajo                                               TF: 100    DF: 41
 Termino: bajos                                              TF: 2      DF: 2
 Termino: bajour                                             TF: 1      DF: 1
 Termino: bal                                                TF: 1      DF: 1
@@ -7791,7 +7759,6 @@ Termino: basilio                                            TF: 1      DF: 1
 Termino: basketball                                         TF: 2      DF: 1
 Termino: basta                                              TF: 8      DF: 4
 Termino: bastan                                             TF: 2      DF: 2
-Termino: bastante                                           TF: 5      DF: 2
 Termino: bastardos                                          TF: 1      DF: 1
 Termino: bastarnuan                                         TF: 1      DF: 1
 Termino: baste                                              TF: 1      DF: 1
@@ -8042,7 +8009,6 @@ Termino: bidart                                             TF: 1      DF: 1
 Termino: bidienabled                                        TF: 1      DF: 1
 Termino: bidimensionales                                    TF: 1      DF: 1
 Termino: bielous                                            TF: 2      DF: 1
-Termino: bien                                               TF: 74     DF: 33
 Termino: bienal                                             TF: 4      DF: 3
 Termino: bienes                                             TF: 21     DF: 10
 Termino: bienesta@unsl                                      TF: 2      DF: 1
@@ -8661,13 +8627,8 @@ Termino: buchrucker                                         TF: 1      DF: 1
 Termino: buco                                               TF: 1      DF: 1
 Termino: budapest                                           TF: 2      DF: 1
 Termino: budini                                             TF: 1      DF: 1
-Termino: buen                                               TF: 11     DF: 9
-Termino: buena                                              TF: 15     DF: 11
-Termino: buenas                                             TF: 7      DF: 5
 Termino: buenaventura                                       TF: 1      DF: 1
-Termino: bueno                                              TF: 38     DF: 3
 Termino: buenoexcelente                                     TF: 16     DF: 1
-Termino: buenos                                             TF: 562    DF: 124
 Termino: buenosaires                                        TF: 1      DF: 1
 Termino: buffa                                              TF: 1      DF: 1
 Termino: buffer                                             TF: 1      DF: 1
@@ -8797,7 +8758,6 @@ Termino: caballos                                           TF: 1      DF: 1
 Termino: cabannas                                           TF: 3      DF: 1
 Termino: cabase                                             TF: 13     DF: 1
 Termino: cabbio                                             TF: 1      DF: 1
-Termino: cabe                                               TF: 27     DF: 14
 Termino: cabecera                                           TF: 3      DF: 2
 Termino: cabello                                            TF: 1      DF: 1
 Termino: cabeza                                             TF: 6      DF: 4
@@ -8820,7 +8780,6 @@ Termino: cache                                              TF: 1      DF: 1
 Termino: cacho                                              TF: 1      DF: 1
 Termino: cacopardo                                          TF: 4      DF: 1
 Termino: cad                                                TF: 7      DF: 2
-Termino: cada                                               TF: 263    DF: 71
 Termino: cadavnerica                                        TF: 1      DF: 1
 Termino: cadea@za                                           TF: 1      DF: 1
 Termino: cadena                                             TF: 5      DF: 4
@@ -9317,7 +9276,6 @@ Termino: case                                               TF: 105    DF: 8
 Termino: casem                                              TF: 1      DF: 1
 Termino: caseros                                            TF: 3      DF: 2
 Termino: casey                                              TF: 5      DF: 1
-Termino: casi                                               TF: 22     DF: 14
 Termino: casilda                                            TF: 1      DF: 1
 Termino: casilla                                            TF: 5      DF: 5
 Termino: casillas                                           TF: 7      DF: 2
@@ -9398,7 +9356,6 @@ Termino: catn                                               TF: 61     DF: 22
 Termino: catnelica                                          TF: 27     DF: 7
 Termino: catnelicas                                         TF: 3      DF: 3
 Termino: catolicismo                                        TF: 1      DF: 1
-Termino: catorce                                            TF: 1      DF: 1
 Termino: cau                                                TF: 141    DF: 4
 Termino: cauca                                              TF: 1      DF: 1
 Termino: cauces                                             TF: 1      DF: 1
@@ -9621,7 +9578,6 @@ Termino: cepint                                             TF: 1      DF: 1
 Termino: cepres                                             TF: 3      DF: 1
 Termino: cequeira                                           TF: 1      DF: 1
 Termino: cequinor                                           TF: 1      DF: 1
-Termino: cerca                                              TF: 3      DF: 3
 Termino: cercana                                            TF: 5      DF: 2
 Termino: cercanas                                           TF: 1      DF: 1
 Termino: cercannua                                          TF: 2      DF: 2
@@ -9897,7 +9853,6 @@ Termino: ciego                                              TF: 2      DF: 2
 Termino: ciegos                                             TF: 1      DF: 1
 Termino: cielo                                              TF: 7      DF: 5
 Termino: cielos                                             TF: 1      DF: 1
-Termino: cien                                               TF: 21     DF: 7
 Termino: cienci                                             TF: 1      DF: 1
 Termino: ciencia                                            TF: 443    DF: 100
 Termino: cienciaest                                         TF: 2      DF: 1
@@ -9934,15 +9889,12 @@ Termino: cientnufico-tnecnico                               TF: 1      DF: 1
 Termino: cientnufico-tnecnicos                              TF: 1      DF: 1
 Termino: cientnuficos                                       TF: 26     DF: 17
 Termino: cientnuficosescherla                               TF: 1      DF: 1
-Termino: ciento                                             TF: 27     DF: 7
-Termino: cientos                                            TF: 14     DF: 4
 Termino: cierra                                             TF: 3      DF: 3
 Termino: cierran                                            TF: 1      DF: 1
 Termino: cierre                                             TF: 58     DF: 25
 Termino: cierres                                            TF: 1      DF: 1
 Termino: cierta                                             TF: 14     DF: 4
 Termino: ciertas                                            TF: 10     DF: 4
-Termino: cierto                                             TF: 13     DF: 2
 Termino: ciertos                                            TF: 11     DF: 5
 Termino: cietareasque                                       TF: 1      DF: 1
 Termino: cietyma                                            TF: 1      DF: 1
@@ -9975,8 +9927,6 @@ Termino: cimientos                                          TF: 2      DF: 2
 Termino: cimmyt                                             TF: 1      DF: 1
 Termino: cin                                                TF: 4      DF: 4
 Termino: cin-me                                             TF: 1      DF: 1
-Termino: cinco                                              TF: 52     DF: 23
-Termino: cincuenta                                          TF: 5      DF: 4
 Termino: cincuentenario                                     TF: 1      DF: 1
 Termino: cindeca                                            TF: 1      DF: 1
 Termino: cindefi                                            TF: 1      DF: 1
@@ -10534,7 +10484,6 @@ Termino: communications                                     TF: 1      DF: 1
 Termino: community                                          TF: 27     DF: 4
 Termino: comn                                               TF: 19     DF: 9
 Termino: comnua                                             TF: 2      DF: 1
-Termino: como                                               TF: 944    DF: 152
 Termino: comodidad                                          TF: 1      DF: 1
 Termino: comodidades                                        TF: 7      DF: 2
 Termino: comodoro                                           TF: 8      DF: 4
@@ -10801,7 +10750,6 @@ Termino: comunitarios                                       TF: 9      DF: 7
 Termino: comunnucate                                        TF: 1      DF: 1
 Termino: comunnuquese                                       TF: 2      DF: 2
 Termino: comunutaria                                        TF: 1      DF: 1
-Termino: con                                                TF: 2231   DF: 235
 Termino: conabip                                            TF: 2      DF: 1
 Termino: conacyt                                            TF: 1      DF: 1
 Termino: conadep                                            TF: 1      DF: 1
@@ -11107,7 +11055,6 @@ Termino: conmemorar                                         TF: 2      DF: 1
 Termino: conmemorativas                                     TF: 1      DF: 1
 Termino: conmemorativo                                      TF: 1      DF: 1
 Termino: conmemore                                          TF: 1      DF: 1
-Termino: conmigo                                            TF: 1      DF: 1
 Termino: conmiscerarse                                      TF: 1      DF: 1
 Termino: conmocinen                                         TF: 1      DF: 1
 Termino: conmociona                                         TF: 1      DF: 1
@@ -11126,7 +11073,6 @@ Termino: conoce                                             TF: 4      DF: 4
 Termino: conocemos                                          TF: 1      DF: 1
 Termino: conocen                                            TF: 5      DF: 3
 Termino: conocenos                                          TF: 1      DF: 1
-Termino: conocer                                            TF: 56     DF: 38
 Termino: conocerlo                                          TF: 1      DF: 1
 Termino: conocern                                           TF: 2      DF: 2
 Termino: conocernos                                         TF: 1      DF: 1
@@ -11196,7 +11142,6 @@ Termino: conservation                                       TF: 1      DF: 1
 Termino: conservatorio                                      TF: 2      DF: 2
 Termino: conserveros                                        TF: 1      DF: 1
 Termino: consider                                           TF: 3      DF: 1
-Termino: considera                                          TF: 18     DF: 10
 Termino: consideraba                                        TF: 3      DF: 1
 Termino: consideraban                                       TF: 3      DF: 2
 Termino: considerable                                       TF: 4      DF: 2
@@ -11229,7 +11174,6 @@ Termino: consignan                                          TF: 7      DF: 2
 Termino: consignando                                        TF: 1      DF: 1
 Termino: consignas                                          TF: 3      DF: 2
 Termino: consignelos                                        TF: 1      DF: 1
-Termino: consigo                                            TF: 1      DF: 1
 Termino: consigue                                           TF: 3      DF: 2
 Termino: consiguen                                          TF: 1      DF: 1
 Termino: consiguieron                                       TF: 1      DF: 1
@@ -11467,7 +11411,6 @@ Termino: contienda                                          TF: 1      DF: 1
 Termino: contiene                                           TF: 15     DF: 9
 Termino: contienen                                          TF: 2      DF: 1
 Termino: contigneidad                                       TF: 3      DF: 1
-Termino: contigo                                            TF: 1      DF: 1
 Termino: contiguo                                           TF: 1      DF: 1
 Termino: contin                                             TF: 2      DF: 2
 Termino: continental                                        TF: 7      DF: 6
@@ -11501,7 +11444,6 @@ Termino: contn                                              TF: 47     DF: 20
 Termino: contne                                             TF: 9      DF: 7
 Termino: contno                                             TF: 1      DF: 1
 Termino: contnunua                                          TF: 4      DF: 4
-Termino: contra                                             TF: 43     DF: 16
 Termino: contracara                                         TF: 1      DF: 1
 Termino: contraccinen                                       TF: 6      DF: 1
 Termino: contract                                           TF: 2      DF: 2
@@ -11865,7 +11807,6 @@ Termino: cortos                                             TF: 6      DF: 3
 Termino: cory                                               TF: 1      DF: 1
 Termino: corzo                                              TF: 1      DF: 1
 Termino: cosa                                               TF: 18     DF: 6
-Termino: cosas                                              TF: 38     DF: 8
 Termino: cosecha                                            TF: 1      DF: 1
 Termino: cosechar                                           TF: 1      DF: 1
 Termino: cosechas                                           TF: 1      DF: 1
@@ -12029,7 +11970,6 @@ Termino: cren                                               TF: 2      DF: 1
 Termino: crene                                              TF: 20     DF: 16
 Termino: crenua                                             TF: 1      DF: 1
 Termino: crenuble                                           TF: 3      DF: 2
-Termino: creo                                               TF: 32     DF: 6
 Termino: crepuq                                             TF: 2      DF: 1
 Termino: crespi                                             TF: 1      DF: 1
 Termino: crespo                                             TF: 2      DF: 2
@@ -12210,9 +12150,6 @@ Termino: cuadro-col-titulo                                  TF: 9      DF: 8
 Termino: cuadro2                                            TF: 1      DF: 1
 Termino: cuadro3                                            TF: 1      DF: 1
 Termino: cuadros                                            TF: 1      DF: 1
-Termino: cual                                               TF: 172    DF: 53
-Termino: cuales                                             TF: 56     DF: 27
-Termino: cualesquiera                                       TF: 1      DF: 1
 Termino: cuali                                              TF: 1      DF: 1
 Termino: cualidad                                           TF: 1      DF: 1
 Termino: cualidades                                         TF: 2      DF: 2
@@ -12221,23 +12158,15 @@ Termino: cualitativamente                                   TF: 1      DF: 1
 Termino: cualitativas                                       TF: 1      DF: 1
 Termino: cualitativo                                        TF: 4      DF: 2
 Termino: cualitativos                                       TF: 4      DF: 4
-Termino: cualquier                                          TF: 60     DF: 29
-Termino: cualquiera                                         TF: 14     DF: 8
 Termino: cuan                                               TF: 1      DF: 1
-Termino: cuando                                             TF: 119    DF: 27
-Termino: cuantas                                            TF: 1      DF: 1
 Termino: cuantica                                           TF: 2      DF: 1
 Termino: cuantificacinen                                    TF: 3      DF: 3
 Termino: cuantitativa                                       TF: 4      DF: 2
 Termino: cuantitativas                                      TF: 4      DF: 3
 Termino: cuantitativos                                      TF: 4      DF: 4
-Termino: cuanto                                             TF: 37     DF: 19
-Termino: cuantos                                            TF: 1      DF: 1
-Termino: cuarenta                                           TF: 6      DF: 4
 Termino: cuarta                                             TF: 2      DF: 2
 Termino: cuartango                                          TF: 1      DF: 1
 Termino: cuarteto                                           TF: 4      DF: 1
-Termino: cuarto                                             TF: 184    DF: 24
 Termino: cuartoredireccionando                              TF: 1      DF: 1
 Termino: cuasiunidimensional                                TF: 1      DF: 1
 Termino: cuat                                               TF: 2      DF: 2
@@ -12250,7 +12179,6 @@ Termino: cuatrimestrales                                    TF: 3      DF: 3
 Termino: cuatrimestre                                       TF: 102    DF: 29
 Termino: cuatrimestreaula                                   TF: 4      DF: 1
 Termino: cuatrimestres                                      TF: 5      DF: 2
-Termino: cuatro                                             TF: 64     DF: 33
 Termino: cuatrocientas                                      TF: 1      DF: 1
 Termino: cuatrocientos                                      TF: 1      DF: 1
 Termino: cuatros                                            TF: 1      DF: 1
@@ -12278,7 +12206,6 @@ Termino: cuello                                             TF: 1      DF: 1
 Termino: cuenca                                             TF: 13     DF: 7
 Termino: cuencal                                            TF: 1      DF: 1
 Termino: cuencas                                            TF: 14     DF: 3
-Termino: cuenta                                             TF: 165    DF: 75
 Termino: cuentan                                            TF: 14     DF: 10
 Termino: cuentas                                            TF: 16     DF: 13
 Termino: cuenten                                            TF: 3      DF: 3
@@ -12477,12 +12404,8 @@ Termino: customsystemfooter                                 TF: 1      DF: 1
 Termino: cut                                                TF: 3      DF: 2
 Termino: cute                                               TF: 1      DF: 1
 Termino: cutral                                             TF: 1      DF: 1
-Termino: cuya                                               TF: 15     DF: 11
-Termino: cuyas                                              TF: 6      DF: 4
-Termino: cuyo                                               TF: 47     DF: 24
 Termino: cuyo-                                              TF: 1      DF: 1
 Termino: cuyocentro                                         TF: 1      DF: 1
-Termino: cuyos                                              TF: 11     DF: 7
 Termino: cvalenti@unr                                       TF: 1      DF: 1
 Termino: cvassena@citefa                                    TF: 1      DF: 1
 Termino: cvd                                                TF: 5      DF: 1
@@ -12522,7 +12445,6 @@ Termino: dada                                               TF: 9      DF: 6
 Termino: dadace                                             TF: 2      DF: 1
 Termino: dadamia                                            TF: 1      DF: 1
 Termino: dadas                                              TF: 2      DF: 2
-Termino: dado                                               TF: 29     DF: 16
 Termino: dadores                                            TF: 1      DF: 1
 Termino: dae0e0                                             TF: 3      DF: 1
 Termino: dafne                                              TF: 1      DF: 1
@@ -12547,7 +12469,6 @@ Termino: damnificado                                        TF: 1      DF: 1
 Termino: damocles                                           TF: 1      DF: 1
 Termino: damos                                              TF: 4      DF: 3
 Termino: damsu                                              TF: 3      DF: 2
-Termino: dan                                                TF: 38     DF: 21
 Termino: dana                                               TF: 2      DF: 1
 Termino: danas                                              TF: 1      DF: 1
 Termino: dance                                              TF: 2      DF: 2
@@ -12575,7 +12496,6 @@ Termino: danzas                                             TF: 3      DF: 3
 Termino: daoud@cnea                                         TF: 1      DF: 1
 Termino: dap                                                TF: 1      DF: 1
 Termino: dapozo                                             TF: 1      DF: 1
-Termino: dar                                                TF: 43     DF: 24
 Termino: dardenne                                           TF: 1      DF: 1
 Termino: dardo                                              TF: 4      DF: 3
 Termino: dardotnutulo                                       TF: 1      DF: 1
@@ -12658,7 +12578,6 @@ Termino: dealbergar                                         TF: 1      DF: 1
 Termino: dean                                               TF: 5      DF: 2
 Termino: dearaux                                            TF: 1      DF: 1
 Termino: deba                                               TF: 5      DF: 5
-Termino: debajo                                             TF: 4      DF: 3
 Termino: debamos                                            TF: 1      DF: 1
 Termino: deban                                              TF: 2      DF: 2
 Termino: debate                                             TF: 59     DF: 20
@@ -12666,9 +12585,7 @@ Termino: debaten                                            TF: 2      DF: 2
 Termino: debates                                            TF: 15     DF: 5
 Termino: debatiendo                                         TF: 2      DF: 2
 Termino: debatir                                            TF: 4      DF: 4
-Termino: debe                                               TF: 170    DF: 53
 Termino: debemos                                            TF: 5      DF: 1
-Termino: deben                                              TF: 42     DF: 23
 Termino: deber                                              TF: 21     DF: 7
 Termino: debera                                             TF: 1      DF: 1
 Termino: deberan                                            TF: 1      DF: 1
@@ -12684,7 +12601,6 @@ Termino: debes                                              TF: 8      DF: 4
 Termino: debian                                             TF: 2      DF: 1
 Termino: debida                                             TF: 2      DF: 2
 Termino: debidamente                                        TF: 9      DF: 7
-Termino: debido                                             TF: 17     DF: 16
 Termino: debiera                                            TF: 1      DF: 1
 Termino: debiese                                            TF: 1      DF: 1
 Termino: debilidades                                        TF: 2      DF: 1
@@ -12724,7 +12640,6 @@ Termino: deciencias                                         TF: 4      DF: 3
 Termino: decimas                                            TF: 1      DF: 1
 Termino: decime                                             TF: 1      DF: 1
 Termino: decimos                                            TF: 1      DF: 1
-Termino: decir                                              TF: 103    DF: 16
 Termino: decirle                                            TF: 3      DF: 1
 Termino: decirles                                           TF: 1      DF: 1
 Termino: decirlo                                            TF: 4      DF: 1
@@ -12892,11 +12807,9 @@ Termino: dejenos                                            TF: 1      DF: 1
 Termino: dejne                                              TF: 9      DF: 6
 Termino: dejnemoslo                                         TF: 1      DF: 1
 Termino: dejo                                               TF: 3      DF: 3
-Termino: del                                                TF: 4839   DF: 315
 Termino: del22al                                            TF: 1      DF: 1
 Termino: dela                                               TF: 5      DF: 4
 Termino: delain                                             TF: 1      DF: 1
-Termino: delante                                            TF: 3      DF: 2
 Termino: delas                                              TF: 1      DF: 1
 Termino: delatan                                            TF: 1      DF: 1
 Termino: delay                                              TF: 17     DF: 5
@@ -12960,7 +12873,6 @@ Termino: demandne                                           TF: 1      DF: 1
 Termino: demante                                            TF: 1      DF: 1
 Termino: demarcacinen                                       TF: 2      DF: 1
 Termino: demas                                              TF: 1      DF: 1
-Termino: demasiado                                          TF: 1      DF: 1
 Termino: dematemn                                           TF: 1      DF: 1
 Termino: dematti                                            TF: 1      DF: 1
 Termino: demergasso                                         TF: 2      DF: 2
@@ -13026,7 +12938,6 @@ Termino: dentales                                           TF: 1      DF: 1
 Termino: dentaria                                           TF: 1      DF: 1
 Termino: dentice                                            TF: 1      DF: 1
 Termino: dentista                                           TF: 2      DF: 1
-Termino: dentro                                             TF: 83     DF: 43
 Termino: dentrode                                           TF: 2      DF: 2
 Termino: denuncia                                           TF: 5      DF: 3
 Termino: denunciados                                        TF: 1      DF: 1
@@ -13293,7 +13204,6 @@ Termino: descuento                                          TF: 11     DF: 5
 Termino: descuentos                                         TF: 5      DF: 4
 Termino: descuida                                           TF: 1      DF: 1
 Termino: descuidar                                          TF: 2      DF: 2
-Termino: desde                                              TF: 402    DF: 121
 Termino: desdeel                                            TF: 1      DF: 1
 Termino: desdibujados                                       TF: 1      DF: 1
 Termino: desdibujamiento                                    TF: 3      DF: 1
@@ -13705,12 +13615,9 @@ Termino: dicarlo                                            TF: 1      DF: 1
 Termino: dicas                                              TF: 19     DF: 6
 Termino: dicasa                                             TF: 1      DF: 1
 Termino: diccionario                                        TF: 2      DF: 2
-Termino: dice                                               TF: 55     DF: 5
 Termino: dicema                                             TF: 1      DF: 1
-Termino: dicen                                              TF: 5      DF: 1
 Termino: dicha                                              TF: 31     DF: 15
 Termino: dichas                                             TF: 18     DF: 12
-Termino: dicho                                              TF: 44     DF: 19
 Termino: dichos                                             TF: 9      DF: 9
 Termino: diciembre                                          TF: 291    DF: 86
 Termino: diciendo                                           TF: 8      DF: 2
@@ -13750,11 +13657,9 @@ Termino: diegotnutulo                                       TF: 2      DF: 1
 Termino: dielnectricos                                      TF: 1      DF: 1
 Termino: dientes                                            TF: 1      DF: 1
 Termino: diera                                              TF: 1      DF: 1
-Termino: dieron                                             TF: 7      DF: 6
 Termino: diesel                                             TF: 1      DF: 1
 Termino: diestra                                            TF: 1      DF: 1
 Termino: dietas                                             TF: 1      DF: 1
-Termino: diez                                               TF: 26     DF: 18
 Termino: difamar                                            TF: 1      DF: 1
 Termino: diferencia                                         TF: 26     DF: 8
 Termino: diferenciacinen                                    TF: 2      DF: 1
@@ -13767,8 +13672,6 @@ Termino: diferenciarla                                      TF: 1      DF: 1
 Termino: diferenciaron                                      TF: 1      DF: 1
 Termino: diferencias                                        TF: 19     DF: 9
 Termino: diferencine                                        TF: 1      DF: 1
-Termino: diferente                                          TF: 6      DF: 5
-Termino: diferentes                                         TF: 87     DF: 53
 Termino: different                                          TF: 1      DF: 1
 Termino: difficile                                          TF: 1      DF: 1
 Termino: diffnerenciations                                  TF: 1      DF: 1
@@ -13826,7 +13729,6 @@ Termino: digresinen                                         TF: 1      DF: 1
 Termino: dije                                               TF: 4      DF: 1
 Termino: dijera                                             TF: 4      DF: 2
 Termino: dijimos                                            TF: 3      DF: 1
-Termino: dijo                                               TF: 20     DF: 4
 Termino: dilatada                                           TF: 3      DF: 2
 Termino: dilemas                                            TF: 5      DF: 2
 Termino: dillon                                             TF: 1      DF: 1
@@ -13864,7 +13766,6 @@ Termino: dinge-21                                           TF: 1      DF: 1
 Termino: dingq-10                                           TF: 1      DF: 1
 Termino: dinn                                               TF: 72     DF: 25
 Termino: dino                                               TF: 1      DF: 1
-Termino: dio                                                TF: 21     DF: 13
 Termino: diogenes                                           TF: 1      DF: 1
 Termino: dioguardi                                          TF: 1      DF: 1
 Termino: dionisio                                           TF: 12     DF: 3
@@ -14225,7 +14126,6 @@ Termino: doblemente                                         TF: 1      DF: 1
 Termino: dobles                                             TF: 26     DF: 2
 Termino: doc                                                TF: 64     DF: 13
 Termino: doc07-feb-2012                                     TF: 3      DF: 1
-Termino: doce                                               TF: 8      DF: 6
 Termino: docedestinatarios                                  TF: 1      DF: 1
 Termino: docembed                                           TF: 1      DF: 1
 Termino: docena                                             TF: 2      DF: 2
@@ -14351,7 +14251,6 @@ Termino: donamos                                            TF: 1      DF: 1
 Termino: donan                                              TF: 2      DF: 1
 Termino: donati                                             TF: 1      DF: 1
 Termino: donato                                             TF: 3      DF: 1
-Termino: donde                                              TF: 110    DF: 44
 Termino: done                                               TF: 5      DF: 4
 Termino: donghi                                             TF: 2      DF: 1
 Termino: donini                                             TF: 2      DF: 1
@@ -14368,7 +14267,6 @@ Termino: dormir                                             TF: 1      DF: 1
 Termino: dormirse                                           TF: 1      DF: 1
 Termino: dorronzoro                                         TF: 2      DF: 1
 Termino: dorso                                              TF: 2      DF: 2
-Termino: dos                                                TF: 238    DF: 76
 Termino: doscientas                                         TF: 4      DF: 2
 Termino: doscientos                                         TF: 2      DF: 2
 Termino: dosearch                                           TF: 1      DF: 1
@@ -14494,7 +14392,6 @@ Termino: duramente                                          TF: 1      DF: 1
 Termino: duran                                              TF: 1      DF: 1
 Termino: durand                                             TF: 2      DF: 1
 Termino: durango                                            TF: 1      DF: 1
-Termino: durante                                            TF: 182    DF: 84
 Termino: duras                                              TF: 1      DF: 1
 Termino: duration                                           TF: 115    DF: 13
 Termino: duraznos                                           TF: 1      DF: 1
@@ -14897,7 +14794,6 @@ Termino: ejecutores                                         TF: 1      DF: 1
 Termino: ejemplar                                           TF: 5      DF: 4
 Termino: ejemplares                                         TF: 4      DF: 3
 Termino: ejemplaridad                                       TF: 1      DF: 1
-Termino: ejemplo                                            TF: 35     DF: 14
 Termino: ejemplos                                           TF: 8      DF: 5
 Termino: ejerce                                             TF: 9      DF: 3
 Termino: ejercemos                                          TF: 2      DF: 1
@@ -15060,13 +14956,9 @@ Termino: elite                                              TF: 1      DF: 1
 Termino: elizabeth                                          TF: 6      DF: 2
 Termino: elizalde                                           TF: 1      DF: 1
 Termino: elkin                                              TF: 1      DF: 1
-Termino: ella                                               TF: 44     DF: 19
-Termino: ellas                                              TF: 38     DF: 23
 Termino: elle                                               TF: 1      DF: 1
 Termino: elleipsis                                          TF: 1      DF: 1
 Termino: elliot                                             TF: 4      DF: 1
-Termino: ello                                               TF: 60     DF: 30
-Termino: ellos                                              TF: 53     DF: 27
 Termino: ellul                                              TF: 1      DF: 1
 Termino: elluminate                                         TF: 1      DF: 1
 Termino: elm                                                TF: 56     DF: 3
@@ -15120,7 +15012,6 @@ Termino: embalse7                                           TF: 1      DF: 1
 Termino: embarazada                                         TF: 1      DF: 1
 Termino: embarazadas                                        TF: 6      DF: 3
 Termino: embarazo                                           TF: 6      DF: 1
-Termino: embargo                                            TF: 25     DF: 11
 Termino: embed                                              TF: 14     DF: 7
 Termino: embedattrs                                         TF: 11     DF: 1
 Termino: embeddededitorurlprefix                            TF: 1      DF: 1
@@ -15186,7 +15077,6 @@ Termino: empenna                                            TF: 1      DF: 1
 Termino: empennada                                          TF: 2      DF: 1
 Termino: empennan                                           TF: 1      DF: 1
 Termino: emperador                                          TF: 1      DF: 1
-Termino: empero                                             TF: 1      DF: 1
 Termino: empesarial                                         TF: 1      DF: 1
 Termino: empezamos                                          TF: 1      DF: 1
 Termino: empezando                                          TF: 1      DF: 1
@@ -15310,7 +15200,6 @@ Termino: enciende                                           TF: 1      DF: 1
 Termino: encierra                                           TF: 2      DF: 1
 Termino: encierran                                          TF: 3      DF: 2
 Termino: encierro                                           TF: 2      DF: 2
-Termino: encima                                             TF: 5      DF: 3
 Termino: encinas                                            TF: 3      DF: 1
 Termino: enclavado                                          TF: 2      DF: 2
 Termino: enclave                                            TF: 1      DF: 1
@@ -15345,7 +15234,6 @@ Termino: encuadrados                                        TF: 1      DF: 1
 Termino: encuadre                                           TF: 2      DF: 2
 Termino: encubiertas                                        TF: 1      DF: 1
 Termino: encubrimiento                                      TF: 1      DF: 1
-Termino: encuentra                                          TF: 104    DF: 48
 Termino: encuentran                                         TF: 54     DF: 33
 Termino: encuentre                                          TF: 4      DF: 2
 Termino: encuentren                                         TF: 9      DF: 5
@@ -15577,7 +15465,6 @@ Termino: entomolognaa                                       TF: 1      DF: 1
 Termino: entomolognua                                       TF: 4      DF: 2
 Termino: entonacinen                                        TF: 1      DF: 1
 Termino: entonar                                            TF: 1      DF: 1
-Termino: entonces                                           TF: 92     DF: 11
 Termino: entorno                                            TF: 22     DF: 12
 Termino: entornos                                           TF: 6      DF: 4
 Termino: entornovirtual                                     TF: 1      DF: 1
@@ -15596,7 +15483,6 @@ Termino: entrar                                             TF: 47     DF: 28
 Termino: entrarentrar                                       TF: 3      DF: 3
 Termino: entrarn                                            TF: 2      DF: 2
 Termino: entrarnuan                                         TF: 2      DF: 1
-Termino: entre                                              TF: 516    DF: 130
 Termino: entre-rios                                         TF: 1      DF: 1
 Termino: entrecruzamiento                                   TF: 1      DF: 1
 Termino: entredicho                                         TF: 1      DF: 1
@@ -15775,8 +15661,6 @@ Termino: equivoca                                           TF: 1      DF: 1
 Termino: equivocado                                         TF: 1      DF: 1
 Termino: equivocarnos                                       TF: 1      DF: 1
 Termino: equivocaste                                        TF: 1      DF: 1
-Termino: era                                                TF: 69     DF: 16
-Termino: eran                                               TF: 15     DF: 5
 Termino: erasmus                                            TF: 19     DF: 2
 Termino: erba                                               TF: 1      DF: 1
 Termino: ereccinen                                          TF: 2      DF: 1
@@ -15816,8 +15700,6 @@ Termino: errormsg                                           TF: 3      DF: 1
 Termino: errors                                             TF: 11     DF: 2
 Termino: ersilla                                            TF: 1      DF: 1
 Termino: es-419                                             TF: 11     DF: 9
-Termino: esa                                                TF: 75     DF: 27
-Termino: esas                                               TF: 18     DF: 9
 Termino: esba                                               TF: 1      DF: 1
 Termino: esbozados                                          TF: 1      DF: 1
 Termino: esbse                                              TF: 1      DF: 1
@@ -15927,7 +15809,6 @@ Termino: escuelatipo                                        TF: 2      DF: 1
 Termino: escuestas                                          TF: 1      DF: 1
 Termino: escultura                                          TF: 4      DF: 2
 Termino: esculturas                                         TF: 2      DF: 1
-Termino: ese                                                TF: 99     DF: 36
 Termino: esencia                                            TF: 7      DF: 2
 Termino: esencial                                           TF: 11     DF: 3
 Termino: esenciales                                         TF: 3      DF: 2
@@ -15940,8 +15821,6 @@ Termino: esfuerzo                                           TF: 20     DF: 15
 Termino: esfuerzos                                          TF: 14     DF: 11
 Termino: esky                                               TF: 3      DF: 3
 Termino: esnaola                                            TF: 1      DF: 1
-Termino: eso                                                TF: 60     DF: 10
-Termino: esos                                               TF: 19     DF: 9
 Termino: esp                                                TF: 50     DF: 9
 Termino: espa                                               TF: 8      DF: 5
 Termino: espacial                                           TF: 7      DF: 6
@@ -16076,9 +15955,6 @@ Termino: esquizoparanoide                                   TF: 1      DF: 1
 Termino: ess                                                TF: 4      DF: 1
 Termino: essaunc@uncoma                                     TF: 1      DF: 1
 Termino: est                                                TF: 74     DF: 12
-Termino: esta                                               TF: 564    DF: 183
-Termino: estaba                                             TF: 24     DF: 5
-Termino: estaban                                            TF: 15     DF: 7
 Termino: estabilidad                                        TF: 19     DF: 9
 Termino: estabilizacinen                                    TF: 2      DF: 2
 Termino: estabilizado                                       TF: 1      DF: 1
@@ -16144,7 +16020,6 @@ Termino: estalle                                            TF: 1      DF: 1
 Termino: estallido                                          TF: 5      DF: 1
 Termino: estamento                                          TF: 2      DF: 1
 Termino: estamentos                                         TF: 1      DF: 1
-Termino: estamos                                            TF: 25     DF: 8
 Termino: estampado                                          TF: 1      DF: 1
 Termino: estampillado                                       TF: 1      DF: 1
 Termino: estampillados                                      TF: 2      DF: 1
@@ -16155,14 +16030,12 @@ Termino: estanciaestudios                                   TF: 1      DF: 1
 Termino: estancias                                          TF: 6      DF: 3
 Termino: estandarizacinen                                   TF: 1      DF: 1
 Termino: estando                                            TF: 2      DF: 1
-Termino: estar                                              TF: 80     DF: 33
 Termino: estaremos                                          TF: 2      DF: 2
 Termino: estareuninen                                       TF: 1      DF: 1
 Termino: estarn                                             TF: 39     DF: 26
 Termino: estarnos                                           TF: 1      DF: 1
 Termino: estarnua                                           TF: 1      DF: 1
 Termino: estarnuan                                          TF: 3      DF: 3
-Termino: estas                                              TF: 79     DF: 38
 Termino: estatal                                            TF: 12     DF: 6
 Termino: estatales                                          TF: 15     DF: 12
 Termino: estatalesalvez                                     TF: 2      DF: 1
@@ -16173,7 +16046,6 @@ Termino: estatuas                                           TF: 21     DF: 1
 Termino: estatus                                            TF: 1      DF: 1
 Termino: estatuto                                           TF: 99     DF: 35
 Termino: estatutos                                          TF: 14     DF: 2
-Termino: este                                               TF: 564    DF: 149
 Termino: esteban                                            TF: 19     DF: 10
 Termino: estefania                                          TF: 1      DF: 1
 Termino: estela                                             TF: 7      DF: 4
@@ -16371,14 +16243,11 @@ Termino: estnevez                                           TF: 1      DF: 1
 Termino: estnin                                             TF: 1      DF: 1
 Termino: estnumulo                                          TF: 5      DF: 3
 Termino: estnumulos                                         TF: 5      DF: 2
-Termino: esto                                               TF: 139    DF: 27
 Termino: estocn                                             TF: 3      DF: 1
 Termino: estomago                                           TF: 2      DF: 1
 Termino: estomatolnegicas                                   TF: 1      DF: 1
 Termino: estomatologica                                     TF: 1      DF: 1
 Termino: estomatolognua                                     TF: 2      DF: 2
-Termino: estos                                              TF: 109    DF: 63
-Termino: estoy                                              TF: 14     DF: 3
 Termino: estragegia                                         TF: 1      DF: 1
 Termino: estranjeros                                        TF: 1      DF: 1
 Termino: estrasburgo                                        TF: 1      DF: 1
@@ -16481,7 +16350,6 @@ Termino: estudirn                                           TF: 1      DF: 1
 Termino: estupefacientes                                    TF: 2      DF: 1
 Termino: estuviera                                          TF: 4      DF: 2
 Termino: estuvieron                                         TF: 9      DF: 7
-Termino: estuvo                                             TF: 19     DF: 11
 Termino: esudiantes                                         TF: 1      DF: 1
 Termino: esui                                               TF: 2      DF: 1
 Termino: esun                                               TF: 1      DF: 1
@@ -16730,8 +16598,6 @@ Termino: exilio                                             TF: 1      DF: 1
 Termino: exist                                              TF: 1      DF: 1
 Termino: exista                                             TF: 4      DF: 2
 Termino: existan                                            TF: 2      DF: 2
-Termino: existe                                             TF: 42     DF: 19
-Termino: existen                                            TF: 12     DF: 8
 Termino: existence                                          TF: 1      DF: 1
 Termino: existencia                                         TF: 26     DF: 10
 Termino: existencialistas                                   TF: 1      DF: 1
@@ -17594,7 +17460,6 @@ Termino: fim214                                             TF: 1      DF: 1
 Termino: fim26                                              TF: 1      DF: 1
 Termino: fim28                                              TF: 1      DF: 1
 Termino: fim68                                              TF: 1      DF: 1
-Termino: fin                                                TF: 110    DF: 53
 Termino: finadito                                           TF: 1      DF: 1
 Termino: final                                              TF: 103    DF: 39
 Termino: finales                                            TF: 82     DF: 32
@@ -17913,7 +17778,6 @@ Termino: fonorosario@yahoo                                  TF: 1      DF: 1
 Termino: fonos                                              TF: 1      DF: 1
 Termino: fonseca                                            TF: 2      DF: 1
 Termino: fonsoft                                            TF: 7      DF: 3
-Termino: font                                               TF: 71     DF: 25
 Termino: font-color                                         TF: 96     DF: 1
 Termino: font-family                                        TF: 737    DF: 74
 Termino: font-size                                          TF: 972    DF: 91
@@ -18176,7 +18040,6 @@ Termino: frena                                              TF: 2      DF: 1
 Termino: frenar                                             TF: 1      DF: 1
 Termino: frenesnu                                           TF: 2      DF: 2
 Termino: frenquelli                                         TF: 8      DF: 1
-Termino: frente                                             TF: 39     DF: 21
 Termino: frequented                                         TF: 1      DF: 1
 Termino: frequently                                         TF: 1      DF: 1
 Termino: fresca                                             TF: 1      DF: 1
@@ -18254,15 +18117,12 @@ Termino: ftp                                                TF: 5      DF: 2
 Termino: fts                                                TF: 5      DF: 1
 Termino: fuc                                                TF: 9      DF: 2
 Termino: fuckings                                           TF: 2      DF: 1
-Termino: fue                                                TF: 188    DF: 65
 Termino: fuego                                              TF: 13     DF: 9
 Termino: fuel                                               TF: 10     DF: 3
 Termino: fuente                                             TF: 20     DF: 13
 Termino: fuentes                                            TF: 34     DF: 20
-Termino: fuera                                              TF: 64     DF: 26
 Termino: fueran                                             TF: 1      DF: 1
 Termino: fuere                                              TF: 5      DF: 5
-Termino: fueron                                             TF: 47     DF: 24
 Termino: fuerte                                             TF: 23     DF: 14
 Termino: fuertemente                                        TF: 2      DF: 2
 Termino: fuerteorientacinen                                 TF: 1      DF: 1
@@ -18311,7 +18171,6 @@ Termino: funcionarios                                       TF: 10     DF: 7
 Termino: funcionarn                                         TF: 2      DF: 2
 Termino: funcionen                                          TF: 1      DF: 1
 Termino: funciones                                          TF: 53     DF: 27
-Termino: function                                           TF: 1698   DF: 200
 Termino: functional                                         TF: 2      DF: 1
 Termino: functions                                          TF: 4      DF: 2
 Termino: fund                                               TF: 10     DF: 3
@@ -19043,14 +18902,12 @@ Termino: gramajo                                            TF: 2      DF: 1
 Termino: gramatical                                         TF: 1      DF: 1
 Termino: gramn                                              TF: 3      DF: 2
 Termino: gramnefono                                         TF: 1      DF: 1
-Termino: gran                                               TF: 72     DF: 35
 Termino: granada                                            TF: 8      DF: 3
 Termino: granados                                           TF: 1      DF: 1
 Termino: granbuenos                                         TF: 1      DF: 1
 Termino: grand                                              TF: 1      DF: 1
 Termino: grande                                             TF: 32     DF: 15
 Termino: grande1                                            TF: 2      DF: 1
-Termino: grandes                                            TF: 24     DF: 17
 Termino: grandi                                             TF: 1      DF: 1
 Termino: grands                                             TF: 2      DF: 1
 Termino: granel                                             TF: 1      DF: 1
@@ -19293,7 +19150,6 @@ Termino: gzanetti0hace                                      TF: 4      DF: 1
 Termino: h1n1                                               TF: 2      DF: 2
 Termino: habana                                             TF: 4      DF: 2
 Termino: habenaria                                          TF: 1      DF: 1
-Termino: haber                                              TF: 25     DF: 13
 Termino: haberes                                            TF: 5      DF: 3
 Termino: haberse                                            TF: 2      DF: 2
 Termino: habido                                             TF: 2      DF: 2
@@ -19349,21 +19205,15 @@ Termino: habrn                                              TF: 9      DF: 4
 Termino: habrnua                                            TF: 4      DF: 1
 Termino: habrnuan                                           TF: 2      DF: 1
 Termino: habud                                              TF: 1      DF: 1
-Termino: hace                                               TF: 108    DF: 41
 Termino: hacemos                                            TF: 7      DF: 4
-Termino: hacen                                              TF: 19     DF: 10
-Termino: hacer                                              TF: 72     DF: 34
 Termino: hacerles                                           TF: 1      DF: 1
-Termino: hacerlo                                            TF: 14     DF: 10
 Termino: hacerredirect                                      TF: 6      DF: 2
 Termino: hacerse                                            TF: 2      DF: 2
 Termino: haces                                              TF: 1      DF: 1
 Termino: hacha                                              TF: 2      DF: 1
-Termino: hacia                                              TF: 88     DF: 44
 Termino: hacienda                                           TF: 10     DF: 4
 Termino: hacienda@unsl                                      TF: 1      DF: 1
 Termino: haciendas                                          TF: 1      DF: 1
-Termino: haciendo                                           TF: 25     DF: 16
 Termino: hacinamiento                                       TF: 1      DF: 1
 Termino: hacinendola                                        TF: 1      DF: 1
 Termino: hacinendolo                                        TF: 1      DF: 1
@@ -19401,7 +19251,6 @@ Termino: hamers                                             TF: 1      DF: 1
 Termino: hamilton                                           TF: 1      DF: 1
 Termino: hamlet                                             TF: 11     DF: 1
 Termino: hamurabi                                           TF: 1      DF: 1
-Termino: han                                                TF: 151    DF: 54
 Termino: hand                                               TF: 48     DF: 15
 Termino: handlenextbuttonstate                              TF: 4      DF: 1
 Termino: handleprevbuttonstate                              TF: 4      DF: 1
@@ -19435,14 +19284,11 @@ Termino: hasproductinstall                                  TF: 2      DF: 1
 Termino: hasreqestedversion                                 TF: 3      DF: 1
 Termino: hasrequestedversion                                TF: 3      DF: 1
 Termino: hasrightversion                                    TF: 2      DF: 1
-Termino: hasta                                              TF: 217    DF: 78
 Termino: hastip                                             TF: 2      DF: 1
 Termino: haswriteaccess                                     TF: 2      DF: 1
 Termino: hautes                                             TF: 1      DF: 1
 Termino: have                                               TF: 15     DF: 8
 Termino: haven                                              TF: 1      DF: 1
-Termino: hay                                                TF: 147    DF: 38
-Termino: haya                                               TF: 18     DF: 11
 Termino: hayan                                              TF: 14     DF: 11
 Termino: hayas                                              TF: 2      DF: 1
 Termino: haydnee                                            TF: 1      DF: 1
@@ -19466,7 +19312,6 @@ Termino: hebreo                                             TF: 3      DF: 1
 Termino: hebrew                                             TF: 3      DF: 3
 Termino: hecatombe                                          TF: 1      DF: 1
 Termino: hecha                                              TF: 2      DF: 2
-Termino: hecho                                              TF: 40     DF: 15
 Termino: hechos                                             TF: 16     DF: 6
 Termino: hecht                                              TF: 1      DF: 1
 Termino: hectn                                              TF: 2      DF: 2
@@ -19509,7 +19354,6 @@ Termino: hemoglobina                                        TF: 1      DF: 1
 Termino: hemograma                                          TF: 4      DF: 1
 Termino: hemolnuticos                                       TF: 1      DF: 1
 Termino: hemorreolognua                                     TF: 1      DF: 1
-Termino: hemos                                              TF: 21     DF: 10
 Termino: hemoterapia                                        TF: 1      DF: 1
 Termino: hendez                                             TF: 1      DF: 1
 Termino: henri                                              TF: 1      DF: 1
@@ -19583,7 +19427,6 @@ Termino: hiancias                                           TF: 1      DF: 1
 Termino: hice                                               TF: 1      DF: 1
 Termino: hiciera                                            TF: 1      DF: 1
 Termino: hicieran                                           TF: 1      DF: 1
-Termino: hicieron                                           TF: 6      DF: 5
 Termino: hiciste                                            TF: 1      DF: 1
 Termino: hicolor                                            TF: 1      DF: 1
 Termino: hidalgo                                            TF: 1      DF: 1
@@ -19706,7 +19549,6 @@ Termino: hito                                               TF: 6      DF: 3
 Termino: hitos                                              TF: 2      DF: 1
 Termino: hits                                               TF: 1      DF: 1
 Termino: hiv                                                TF: 7      DF: 2
-Termino: hizo                                               TF: 12     DF: 12
 Termino: hkuhn@citefa                                       TF: 1      DF: 1
 Termino: hlopez@unlu                                        TF: 1      DF: 1
 Termino: hnector                                            TF: 23     DF: 9
@@ -19857,7 +19699,6 @@ Termino: housing                                            TF: 2      DF: 1
 Termino: houston                                            TF: 3      DF: 1
 Termino: hover                                              TF: 254    DF: 60
 Termino: hoverpopupmenu                                     TF: 1      DF: 1
-Termino: hoy                                                TF: 98     DF: 35
 Termino: hoy76ayer46este                                    TF: 1      DF: 1
 Termino: hoy79ayer110esta                                   TF: 1      DF: 1
 Termino: hoy94ayer99esta                                    TF: 1      DF: 1
@@ -19909,7 +19750,6 @@ Termino: hubieran                                           TF: 10     DF: 4
 Termino: hubiere                                            TF: 2      DF: 2
 Termino: hubieren                                           TF: 1      DF: 1
 Termino: hubiese                                            TF: 2      DF: 2
-Termino: hubo                                               TF: 23     DF: 9
 Termino: huddleson                                          TF: 1      DF: 1
 Termino: huelga                                             TF: 3      DF: 1
 Termino: huelgas                                            TF: 2      DF: 1
@@ -20166,7 +20006,6 @@ Termino: igor                                               TF: 3      DF: 2
 Termino: igrave                                             TF: 1      DF: 1
 Termino: iguain                                             TF: 1      DF: 1
 Termino: iguainfecha                                        TF: 2      DF: 1
-Termino: igual                                              TF: 26     DF: 12
 Termino: igualdad                                           TF: 20     DF: 10
 Termino: iguales                                            TF: 8      DF: 4
 Termino: igualitaria                                        TF: 3      DF: 2
@@ -20547,7 +20386,6 @@ Termino: inclusiva                                          TF: 14     DF: 2
 Termino: inclusive                                          TF: 18     DF: 11
 Termino: inclusivo                                          TF: 2      DF: 2
 Termino: inclusivos                                         TF: 1      DF: 1
-Termino: incluso                                            TF: 8      DF: 5
 Termino: incluya                                            TF: 1      DF: 1
 Termino: incluyan                                           TF: 3      DF: 3
 Termino: incluye                                            TF: 62     DF: 23
@@ -21936,7 +21774,6 @@ Termino: jajarabilla                                        TF: 2      DF: 1
 Termino: jakarta                                            TF: 1      DF: 1
 Termino: jalif                                              TF: 1      DF: 1
 Termino: jalil                                              TF: 1      DF: 1
-Termino: jamas                                              TF: 1      DF: 1
 Termino: jamenson                                           TF: 1      DF: 1
 Termino: james                                              TF: 1      DF: 1
 Termino: jameson                                            TF: 1      DF: 1
@@ -22162,7 +21999,6 @@ Termino: juntando                                           TF: 1      DF: 1
 Termino: juntar                                             TF: 1      DF: 1
 Termino: juntaran                                           TF: 1      DF: 1
 Termino: juntas                                             TF: 3      DF: 2
-Termino: junto                                              TF: 44     DF: 26
 Termino: juntos                                             TF: 5      DF: 3
 Termino: jur                                                TF: 8      DF: 3
 Termino: jura                                               TF: 3      DF: 2
@@ -22201,7 +22037,6 @@ Termino: justificatorio                                     TF: 1      DF: 1
 Termino: justifique                                         TF: 1      DF: 1
 Termino: justifiquen                                        TF: 1      DF: 1
 Termino: justify                                            TF: 8      DF: 6
-Termino: justo                                              TF: 17     DF: 13
 Termino: justos                                             TF: 1      DF: 1
 Termino: justy                                              TF: 1      DF: 1
 Termino: juvenil                                            TF: 11     DF: 6
@@ -22391,7 +22226,6 @@ Termino: lactantes                                          TF: 1      DF: 1
 Termino: lacteas                                            TF: 3      DF: 2
 Termino: ladecor                                            TF: 1      DF: 1
 Termino: ladisciplina                                       TF: 1      DF: 1
-Termino: lado                                               TF: 33     DF: 10
 Termino: lados                                              TF: 1      DF: 1
 Termino: ladrillo                                           TF: 2      DF: 1
 Termino: ladrnen                                            TF: 1      DF: 1
@@ -22496,7 +22330,6 @@ Termino: larriba                                            TF: 1      DF: 1
 Termino: larrondo                                           TF: 3      DF: 2
 Termino: larval                                             TF: 2      DF: 1
 Termino: larvales                                           TF: 1      DF: 1
-Termino: las                                                TF: 3224   DF: 272
 Termino: lasala                                             TF: 1      DF: 1
 Termino: lasalvia                                           TF: 1      DF: 1
 Termino: lascerantes                                        TF: 1      DF: 1
@@ -22691,7 +22524,6 @@ Termino: leila                                              TF: 1      DF: 1
 Termino: leitura                                            TF: 1      DF: 1
 Termino: leiva                                              TF: 1      DF: 1
 Termino: lejanos                                            TF: 1      DF: 1
-Termino: lejos                                              TF: 8      DF: 5
 Termino: lelescopiosde                                      TF: 1      DF: 1
 Termino: leloir                                             TF: 2      DF: 2
 Termino: lema                                               TF: 7      DF: 7
@@ -22732,7 +22564,6 @@ Termino: leopold                                            TF: 1      DF: 1
 Termino: lepsi                                              TF: 1      DF: 1
 Termino: leptnen                                            TF: 1      DF: 1
 Termino: lermolieff                                         TF: 2      DF: 1
-Termino: les                                                TF: 105    DF: 43
 Termino: lesa                                               TF: 7      DF: 2
 Termino: lescano                                            TF: 1      DF: 1
 Termino: lesgart                                            TF: 1      DF: 1
@@ -23062,7 +22893,6 @@ Termino: llenar                                             TF: 1      DF: 1
 Termino: llenarn                                            TF: 1      DF: 1
 Termino: llenos                                             TF: 1      DF: 1
 Termino: ller                                               TF: 4      DF: 2
-Termino: lleva                                              TF: 26     DF: 18
 Termino: llevaba                                            TF: 1      DF: 1
 Termino: llevada                                            TF: 3      DF: 3
 Termino: llevadas                                           TF: 7      DF: 5
@@ -23071,7 +22901,6 @@ Termino: llevados                                           TF: 1      DF: 1
 Termino: llevamos                                           TF: 3      DF: 2
 Termino: llevan                                             TF: 14     DF: 8
 Termino: llevando                                           TF: 3      DF: 2
-Termino: llevar                                             TF: 28     DF: 16
 Termino: llevarla                                           TF: 1      DF: 1
 Termino: llevarn                                            TF: 10     DF: 6
 Termino: llevarnua                                          TF: 1      DF: 1
@@ -23232,7 +23061,6 @@ Termino: lorenzano                                          TF: 2      DF: 1
 Termino: lorenzo                                            TF: 5      DF: 2
 Termino: lorge                                              TF: 2      DF: 1
 Termino: lorsque                                            TF: 1      DF: 1
-Termino: los                                                TF: 3955   DF: 347
 Termino: losa                                               TF: 1      DF: 1
 Termino: losdestinatarios                                   TF: 1      DF: 1
 Termino: lose                                               TF: 2      DF: 1
@@ -23305,9 +23133,7 @@ Termino: lucrativas                                         TF: 1      DF: 1
 Termino: lucro                                              TF: 12     DF: 10
 Termino: ludi                                               TF: 2      DF: 1
 Termino: ludovica                                           TF: 1      DF: 1
-Termino: luego                                              TF: 60     DF: 35
 Termino: lugano                                             TF: 2      DF: 1
-Termino: lugar                                              TF: 148    DF: 54
 Termino: lugares                                            TF: 17     DF: 15
 Termino: lugo                                               TF: 5      DF: 2
 Termino: lugones                                            TF: 2      DF: 1
@@ -23501,7 +23327,6 @@ Termino: maletnun                                           TF: 1      DF: 1
 Termino: malezas                                            TF: 1      DF: 1
 Termino: mallea                                             TF: 2      DF: 1
 Termino: mallo                                              TF: 2      DF: 1
-Termino: malo                                               TF: 2      DF: 1
 Termino: malogrado                                          TF: 1      DF: 1
 Termino: malosetti                                          TF: 2      DF: 1
 Termino: maltratados                                        TF: 1      DF: 1
@@ -23542,7 +23367,6 @@ Termino: mando-obediencia                                   TF: 1      DF: 1
 Termino: manejaba                                           TF: 1      DF: 1
 Termino: manejar                                            TF: 3      DF: 3
 Termino: manejo                                             TF: 26     DF: 16
-Termino: manera                                             TF: 106    DF: 38
 Termino: maneras                                            TF: 9      DF: 5
 Termino: manes                                              TF: 4      DF: 3
 Termino: mangiameli                                         TF: 1      DF: 1
@@ -23783,7 +23607,6 @@ Termino: marzio                                             TF: 1      DF: 1
 Termino: marzo                                              TF: 231    DF: 77
 Termino: marzo-abril                                        TF: 1      DF: 1
 Termino: marzocca                                           TF: 1      DF: 1
-Termino: mas                                                TF: 100    DF: 36
 Termino: masa                                               TF: 23     DF: 6
 Termino: masacre                                            TF: 1      DF: 1
 Termino: masanet                                            TF: 1      DF: 1
@@ -23925,7 +23748,6 @@ Termino: may                                                TF: 66     DF: 9
 Termino: maydana                                            TF: 1      DF: 1
 Termino: mayn                                               TF: 1      DF: 1
 Termino: mayo                                               TF: 192    DF: 80
-Termino: mayor                                              TF: 95     DF: 50
 Termino: mayoral                                            TF: 1      DF: 1
 Termino: mayores                                            TF: 38     DF: 22
 Termino: mayoritaria                                        TF: 1      DF: 1
@@ -23992,7 +23814,6 @@ Termino: medianas                                           TF: 4      DF: 3
 Termino: medianeras                                         TF: 3      DF: 1
 Termino: mediano                                            TF: 5      DF: 5
 Termino: medianoche                                         TF: 1      DF: 1
-Termino: mediante                                           TF: 98     DF: 44
 Termino: medianteresolucinen                                TF: 1      DF: 1
 Termino: mediaplayer                                        TF: 2      DF: 1
 Termino: medias                                             TF: 13     DF: 4
@@ -24051,7 +23872,6 @@ Termino: meglia                                             TF: 1      DF: 1
 Termino: meili                                              TF: 1      DF: 1
 Termino: mejia                                              TF: 1      DF: 1
 Termino: mejico                                             TF: 1      DF: 1
-Termino: mejor                                              TF: 45     DF: 23
 Termino: mejora                                             TF: 13     DF: 8
 Termino: mejorado                                           TF: 1      DF: 1
 Termino: mejoramiento                                       TF: 22     DF: 19
@@ -24130,7 +23950,6 @@ Termino: mennendez                                          TF: 3      DF: 2
 Termino: menor                                              TF: 28     DF: 13
 Termino: menorca                                            TF: 15     DF: 1
 Termino: menores                                            TF: 7      DF: 7
-Termino: menos                                              TF: 45     DF: 16
 Termino: mensaje                                            TF: 80     DF: 27
 Termino: mensajebox                                         TF: 2      DF: 1
 Termino: mensajero                                          TF: 2      DF: 1
@@ -24373,7 +24192,6 @@ Termino: mielnicki                                          TF: 2      DF: 1
 Termino: miembro                                            TF: 30     DF: 12
 Termino: miembros                                           TF: 58     DF: 29
 Termino: miento                                             TF: 1      DF: 1
-Termino: mientras                                           TF: 22     DF: 11
 Termino: miercoles                                          TF: 11     DF: 6
 Termino: might                                              TF: 2      DF: 2
 Termino: mignone                                            TF: 3      DF: 1
@@ -24391,7 +24209,6 @@ Termino: miitba                                             TF: 2      DF: 1
 Termino: mijail                                             TF: 1      DF: 1
 Termino: mijovilovich                                       TF: 1      DF: 1
 Termino: mikhail                                            TF: 1      DF: 1
-Termino: mil                                                TF: 24     DF: 12
 Termino: milaboranti@hotmail                                TF: 1      DF: 1
 Termino: milagro                                            TF: 1      DF: 1
 Termino: milagros                                           TF: 6      DF: 3
@@ -24400,7 +24217,6 @@ Termino: milani                                             TF: 2      DF: 1
 Termino: milazzo                                            TF: 1      DF: 1
 Termino: mile                                               TF: 1      DF: 1
 Termino: milenka                                            TF: 1      DF: 1
-Termino: miles                                              TF: 4      DF: 3
 Termino: milesi                                             TF: 1      DF: 1
 Termino: milicos                                            TF: 1      DF: 1
 Termino: milisegundos                                       TF: 1      DF: 1
@@ -24414,7 +24230,6 @@ Termino: miller                                             TF: 1      DF: 1
 Termino: milliseconds                                       TF: 11     DF: 3
 Termino: milln                                              TF: 1      DF: 1
 Termino: millnen                                            TF: 1      DF: 1
-Termino: millones                                           TF: 9      DF: 8
 Termino: mills                                              TF: 1      DF: 1
 Termino: miln                                               TF: 1      DF: 1
 Termino: mimetype                                           TF: 3      DF: 1
@@ -24474,7 +24289,6 @@ Termino: minutes                                            TF: 6      DF: 2
 Termino: minuto                                             TF: 2      DF: 2
 Termino: minutos                                            TF: 16     DF: 8
 Termino: minvestigacion                                     TF: 1      DF: 1
-Termino: mio                                                TF: 1      DF: 1
 Termino: mioceno                                            TF: 1      DF: 1
 Termino: miocn                                              TF: 4      DF: 2
 Termino: miopnua                                            TF: 1      DF: 1
@@ -24495,7 +24309,6 @@ Termino: mirn                                               TF: 1      DF: 1
 Termino: mirnas                                             TF: 2      DF: 1
 Termino: mirror                                             TF: 5      DF: 1
 Termino: mirta                                              TF: 10     DF: 5
-Termino: mis                                                TF: 18     DF: 6
 Termino: misa                                               TF: 3      DF: 1
 Termino: misael                                             TF: 1      DF: 1
 Termino: misc                                               TF: 3      DF: 1
@@ -24513,10 +24326,6 @@ Termino: misionero                                          TF: 1      DF: 1
 Termino: misiones                                           TF: 31     DF: 19
 Termino: misitio                                            TF: 3      DF: 1
 Termino: miskulin                                           TF: 1      DF: 1
-Termino: misma                                              TF: 88     DF: 35
-Termino: mismas                                             TF: 31     DF: 19
-Termino: mismo                                              TF: 171    DF: 58
-Termino: mismos                                             TF: 37     DF: 26
 Termino: misterio                                           TF: 1      DF: 1
 Termino: misterios                                          TF: 3      DF: 1
 Termino: misteriosa                                         TF: 1      DF: 1
@@ -24699,7 +24508,6 @@ Termino: mollo                                              TF: 2      DF: 1
 Termino: molneculas                                         TF: 1      DF: 1
 Termino: moluscos                                           TF: 2      DF: 1
 Termino: momentn                                            TF: 1      DF: 1
-Termino: momento                                            TF: 101    DF: 40
 Termino: momento-curvatura                                  TF: 1      DF: 1
 Termino: momentos                                           TF: 12     DF: 6
 Termino: monaco                                             TF: 1      DF: 1
@@ -24960,12 +24768,8 @@ Termino: msw                                                TF: 4      DF: 2
 Termino: mter                                               TF: 2      DF: 2
 Termino: mtro                                               TF: 1      DF: 1
 Termino: mtrtrab-12                                         TF: 1      DF: 1
-Termino: mucha                                              TF: 7      DF: 4
 Termino: muchachos                                          TF: 1      DF: 1
-Termino: muchas                                             TF: 25     DF: 9
 Termino: muchisimo                                          TF: 1      DF: 1
-Termino: mucho                                              TF: 36     DF: 13
-Termino: muchos                                             TF: 40     DF: 17
 Termino: mucopolisacaridosis                                TF: 2      DF: 1
 Termino: mucosas                                            TF: 1      DF: 1
 Termino: mudan                                              TF: 1      DF: 1
@@ -25111,7 +24915,6 @@ Termino: mutualidades                                       TF: 1      DF: 1
 Termino: mutualista                                         TF: 1      DF: 1
 Termino: mutuamente                                         TF: 1      DF: 1
 Termino: mutuo                                              TF: 2      DF: 2
-Termino: muy                                                TF: 128    DF: 21
 Termino: mvsys                                              TF: 1      DF: 1
 Termino: myajax                                             TF: 6      DF: 2
 Termino: mycarousel                                         TF: 6      DF: 3
@@ -25208,10 +25011,8 @@ Termino: naciones                                           TF: 13     DF: 11
 Termino: nacira                                             TF: 1      DF: 1
 Termino: naciramunoz@yahoo                                  TF: 1      DF: 1
 Termino: nacor                                              TF: 1      DF: 1
-Termino: nada                                               TF: 30     DF: 6
 Termino: nadia                                              TF: 1      DF: 1
 Termino: nadiane                                            TF: 1      DF: 1
-Termino: nadie                                              TF: 12     DF: 5
 Termino: nadin                                              TF: 1      DF: 1
 Termino: nadua                                              TF: 1      DF: 1
 Termino: nagoya                                             TF: 1      DF: 1
@@ -25657,8 +25458,6 @@ Termino: ninformacinen                                      TF: 1      DF: 1
 Termino: ningel                                             TF: 6      DF: 1
 Termino: ningela                                            TF: 2      DF: 2
 Termino: ningn                                              TF: 13     DF: 7
-Termino: ninguna                                            TF: 28     DF: 11
-Termino: ninguno                                            TF: 9      DF: 3
 Termino: ningunosaltar                                      TF: 1      DF: 1
 Termino: ninios                                             TF: 4      DF: 1
 Termino: ninja                                              TF: 24     DF: 2
@@ -25845,11 +25644,9 @@ Termino: norteamericano                                     TF: 1      DF: 1
 Termino: norteamnerica                                      TF: 2      DF: 1
 Termino: nortela                                            TF: 1      DF: 1
 Termino: noruega                                            TF: 1      DF: 1
-Termino: nos                                                TF: 170    DF: 41
 Termino: noscale                                            TF: 1      DF: 1
 Termino: noscriptchooselang                                 TF: 2      DF: 2
 Termino: noselected                                         TF: 8      DF: 1
-Termino: nosotros                                           TF: 35     DF: 12
 Termino: nosotros-ellos                                     TF: 1      DF: 1
 Termino: nosotrosunidades                                   TF: 1      DF: 1
 Termino: nostalgia                                          TF: 1      DF: 1
@@ -25923,7 +25720,6 @@ Termino: november                                           TF: 5      DF: 2
 Termino: novembre                                           TF: 11     DF: 1
 Termino: novena                                             TF: 3      DF: 2
 Termino: noveno                                             TF: 1      DF: 1
-Termino: noventa                                            TF: 4      DF: 4
 Termino: novia                                              TF: 1      DF: 1
 Termino: noviembre                                          TF: 242    DF: 74
 Termino: noviembreno                                        TF: 1      DF: 1
@@ -25971,18 +25767,9 @@ Termino: nucompa                                            TF: 6      DF: 1
 Termino: nucompa-unicenpinto                                TF: 1      DF: 1
 Termino: nucono                                             TF: 1      DF: 1
 Termino: nuda                                               TF: 2      DF: 1
-Termino: nuestra                                            TF: 183    DF: 76
-Termino: nuestras                                           TF: 35     DF: 23
-Termino: nuestro                                            TF: 160    DF: 66
-Termino: nuestros                                           TF: 97     DF: 39
-Termino: nueva                                              TF: 159    DF: 75
 Termino: nuevagaleria                                       TF: 1      DF: 1
 Termino: nuevamente                                         TF: 16     DF: 13
-Termino: nuevas                                             TF: 143    DF: 58
 Termino: nuevaventana                                       TF: 4      DF: 2
-Termino: nueve                                              TF: 10     DF: 7
-Termino: nuevo                                              TF: 178    DF: 81
-Termino: nuevos                                             TF: 121    DF: 51
 Termino: nuevosbeneficiarios                                TF: 1      DF: 1
 Termino: nuez                                               TF: 1      DF: 1
 Termino: nul                                                TF: 1      DF: 1
@@ -26005,7 +25792,6 @@ Termino: numnerico                                          TF: 7      DF: 5
 Termino: numnericos                                         TF: 12     DF: 6
 Termino: numvisible                                         TF: 2      DF: 1
 Termino: nun                                                TF: 3      DF: 1
-Termino: nunca                                              TF: 26     DF: 6
 Termino: nunciato                                           TF: 1      DF: 1
 Termino: nundice                                            TF: 7      DF: 4
 Termino: nundiceinstitucional                               TF: 1      DF: 1
@@ -26189,8 +25975,6 @@ Termino: occidental                                         TF: 8      DF: 4
 Termino: occidentales                                       TF: 2      DF: 2
 Termino: occidente                                          TF: 6      DF: 1
 Termino: oceanografnua                                      TF: 1      DF: 1
-Termino: ochenta                                            TF: 2      DF: 2
-Termino: ocho                                               TF: 23     DF: 11
 Termino: ochoa                                              TF: 1      DF: 1
 Termino: ocio                                               TF: 2      DF: 2
 Termino: ociosa                                             TF: 1      DF: 1
@@ -26202,7 +25986,6 @@ Termino: ocs                                                TF: 2      DF: 1
 Termino: oct                                                TF: 41     DF: 3
 Termino: octave                                             TF: 1      DF: 1
 Termino: octavio                                            TF: 1      DF: 1
-Termino: octavo                                             TF: 1      DF: 1
 Termino: octeto                                             TF: 1      DF: 1
 Termino: october                                            TF: 2      DF: 1
 Termino: octobre                                            TF: 3      DF: 1
@@ -26404,7 +26187,6 @@ Termino: onbeforeeditfocus                                  TF: 1      DF: 1
 Termino: onbeforeupdate                                     TF: 1      DF: 1
 Termino: onblur                                             TF: 3      DF: 2
 Termino: oncativo                                           TF: 2      DF: 1
-Termino: once                                               TF: 9      DF: 7
 Termino: oncellchange                                       TF: 1      DF: 1
 Termino: onclick                                            TF: 55     DF: 6
 Termino: oncolnegica                                        TF: 1      DF: 1
@@ -26599,7 +26381,6 @@ Termino: opuesto                                            TF: 1      DF: 1
 Termino: opuestos                                           TF: 1      DF: 1
 Termino: opuntia                                            TF: 1      DF: 1
 Termino: oquizn                                             TF: 1      DF: 1
-Termino: ora                                                TF: 1      DF: 1
 Termino: oracinen                                           TF: 1      DF: 1
 Termino: oral                                               TF: 29     DF: 8
 Termino: oratoria                                           TF: 1      DF: 1
@@ -26820,14 +26601,10 @@ Termino: otorgne                                            TF: 5      DF: 3
 Termino: otorgo                                             TF: 1      DF: 1
 Termino: otorgue                                            TF: 3      DF: 3
 Termino: otorrinolaringolognua                              TF: 1      DF: 1
-Termino: otra                                               TF: 66     DF: 21
-Termino: otras                                              TF: 164    DF: 73
 Termino: otrasactividades                                   TF: 1      DF: 1
 Termino: otrasno                                            TF: 1      DF: 1
 Termino: otrasregionales                                    TF: 1      DF: 1
-Termino: otro                                               TF: 114    DF: 25
 Termino: otrolas                                            TF: 1      DF: 1
-Termino: otros                                              TF: 208    DF: 75
 Termino: our                                                TF: 6      DF: 4
 Termino: ouro                                               TF: 2      DF: 1
 Termino: out                                                TF: 41     DF: 16
@@ -27359,7 +27136,6 @@ Termino: pappolla                                           TF: 1      DF: 1
 Termino: paquete                                            TF: 1      DF: 1
 Termino: paquetes                                           TF: 1      DF: 1
 Termino: par                                                TF: 11     DF: 9
-Termino: para                                               TF: 3064   DF: 297
 Termino: parabnelicas                                       TF: 1      DF: 1
 Termino: parada                                             TF: 2      DF: 2
 Termino: paradigma                                          TF: 23     DF: 5
@@ -27413,7 +27189,6 @@ Termino: parciales                                          TF: 32     DF: 14
 Termino: parcialescronograma                                TF: 18     DF: 1
 Termino: parcialmente                                       TF: 1      DF: 1
 Termino: parcours                                           TF: 14     DF: 1
-Termino: parece                                             TF: 23     DF: 5
 Termino: parecemos                                          TF: 1      DF: 1
 Termino: parecen                                            TF: 4      DF: 2
 Termino: parecer                                            TF: 5      DF: 1
@@ -27468,7 +27243,6 @@ Termino: parseint                                           TF: 46     DF: 25
 Termino: parsetags                                          TF: 1      DF: 1
 Termino: part                                               TF: 1      DF: 1
 Termino: part-time                                          TF: 1      DF: 1
-Termino: parte                                              TF: 193    DF: 59
 Termino: parte1                                             TF: 1      DF: 1
 Termino: parte2                                             TF: 2      DF: 1
 Termino: parten                                             TF: 1      DF: 1
@@ -27512,7 +27286,6 @@ Termino: partidos                                           TF: 7      DF: 4
 Termino: partiendo                                          TF: 2      DF: 2
 Termino: partimos                                           TF: 1      DF: 1
 Termino: partine                                            TF: 1      DF: 1
-Termino: partir                                             TF: 189    DF: 83
 Termino: partirn                                            TF: 1      DF: 1
 Termino: partition                                          TF: 3      DF: 3
 Termino: partnucipes                                        TF: 4      DF: 4
@@ -27520,10 +27293,8 @@ Termino: partnuculas                                        TF: 8      DF: 2
 Termino: parto                                              TF: 13     DF: 3
 Termino: pasa                                               TF: 10     DF: 5
 Termino: pasaba                                             TF: 1      DF: 1
-Termino: pasada                                             TF: 2      DF: 2
 Termino: pasadas                                            TF: 1      DF: 1
 Termino: pasadero                                           TF: 1      DF: 1
-Termino: pasado                                             TF: 92     DF: 35
 Termino: pasados                                            TF: 4      DF: 3
 Termino: pasaje                                             TF: 10     DF: 4
 Termino: pasajeros                                          TF: 3      DF: 2
@@ -27784,7 +27555,6 @@ Termino: penteo                                             TF: 13     DF: 1
 Termino: pentreath                                          TF: 1      DF: 1
 Termino: penucci                                            TF: 1      DF: 1
 Termino: people                                             TF: 1      DF: 1
-Termino: peor                                               TF: 3      DF: 1
 Termino: peores                                             TF: 1      DF: 1
 Termino: pepe                                               TF: 2      DF: 2
 Termino: pepobap                                            TF: 1      DF: 1
@@ -27937,7 +27707,6 @@ Termino: perno                                              TF: 2      DF: 2
 Termino: pernos                                             TF: 1      DF: 1
 Termino: pernuodo                                           TF: 56     DF: 30
 Termino: pernuodos                                          TF: 6      DF: 5
-Termino: pero                                               TF: 249    DF: 89
 Termino: peron                                              TF: 1      DF: 1
 Termino: peronismo                                          TF: 1      DF: 1
 Termino: peronista                                          TF: 1      DF: 1
@@ -28009,7 +27778,6 @@ Termino: pes                                                TF: 6      DF: 1
 Termino: pesada                                             TF: 1      DF: 1
 Termino: pesadillas                                         TF: 1      DF: 1
 Termino: pesados                                            TF: 3      DF: 3
-Termino: pesar                                              TF: 14     DF: 5
 Termino: pesarde                                            TF: 1      DF: 1
 Termino: pesca                                              TF: 2      DF: 2
 Termino: pescadores                                         TF: 4      DF: 1
@@ -28400,14 +28168,9 @@ Termino: pobre                                              TF: 2      DF: 1
 Termino: pobremente                                         TF: 4      DF: 2
 Termino: pobres                                             TF: 4      DF: 3
 Termino: pobreza                                            TF: 13     DF: 8
-Termino: poca                                               TF: 1      DF: 1
-Termino: pocas                                              TF: 5      DF: 5
 Termino: pocito                                             TF: 2      DF: 1
-Termino: poco                                               TF: 30     DF: 10
-Termino: pocos                                              TF: 8      DF: 7
 Termino: pod                                                TF: 1      DF: 1
 Termino: podamos                                            TF: 4      DF: 2
-Termino: podemos                                            TF: 18     DF: 8
 Termino: poder                                              TF: 111    DF: 41
 Termino: poderes                                            TF: 3      DF: 2
 Termino: podernos                                           TF: 1      DF: 1
@@ -28510,7 +28273,6 @@ Termino: ponen                                              TF: 9      DF: 4
 Termino: ponencia                                           TF: 8      DF: 4
 Termino: ponencias                                          TF: 9      DF: 4
 Termino: ponente                                            TF: 1      DF: 1
-Termino: poner                                              TF: 20     DF: 11
 Termino: ponerlas                                           TF: 1      DF: 1
 Termino: ponerlo                                            TF: 1      DF: 1
 Termino: ponerme                                            TF: 1      DF: 1
@@ -28544,7 +28306,6 @@ Termino: popup2                                             TF: 3      DF: 1
 Termino: popupform                                          TF: 1      DF: 1
 Termino: popupub                                            TF: 6      DF: 1
 Termino: popupwin                                           TF: 2      DF: 1
-Termino: por                                                TF: 2335   DF: 272
 Termino: por514profesores                                   TF: 1      DF: 1
 Termino: poral                                              TF: 1      DF: 1
 Termino: porcari                                            TF: 1      DF: 1
@@ -28559,7 +28320,6 @@ Termino: porfavor                                           TF: 1      DF: 1
 Termino: porfesor                                           TF: 1      DF: 1
 Termino: porlo                                              TF: 1      DF: 1
 Termino: pormenorizado                                      TF: 1      DF: 1
-Termino: porque                                             TF: 139    DF: 17
 Termino: porquepuede                                        TF: 2      DF: 1
 Termino: porqune                                            TF: 2      DF: 2
 Termino: porras                                             TF: 1      DF: 1
@@ -28638,7 +28398,6 @@ Termino: posibilitaron                                      TF: 1      DF: 1
 Termino: posibilite                                         TF: 2      DF: 2
 Termino: posibiliten                                        TF: 3      DF: 3
 Termino: posibilitne                                        TF: 1      DF: 1
-Termino: posible                                            TF: 58     DF: 28
 Termino: posiblemente                                       TF: 6      DF: 2
 Termino: posibles                                           TF: 6      DF: 5
 Termino: posicinen                                          TF: 10     DF: 3
@@ -29148,14 +28907,10 @@ Termino: primarios                                          TF: 2      DF: 2
 Termino: primaryemail                                       TF: 1      DF: 1
 Termino: primas                                             TF: 4      DF: 3
 Termino: primatolognua                                      TF: 1      DF: 1
-Termino: primer                                             TF: 167    DF: 75
-Termino: primera                                            TF: 124    DF: 59
 Termino: primeraimagen                                      TF: 1      DF: 1
 Termino: primeras                                           TF: 37     DF: 22
 Termino: primerelemento                                     TF: 1      DF: 1
-Termino: primero                                            TF: 31     DF: 12
 Termino: primero-segundo                                    TF: 1      DF: 1
-Termino: primeros                                           TF: 35     DF: 19
 Termino: primitiva                                          TF: 6      DF: 1
 Termino: primitivo                                          TF: 1      DF: 1
 Termino: primo                                              TF: 1      DF: 1
@@ -29170,10 +28925,8 @@ Termino: principalconferencias                              TF: 1      DF: 1
 Termino: principalcontacta                                  TF: 1      DF: 1
 Termino: principales                                        TF: 39     DF: 26
 Termino: principalmenn                                      TF: 2      DF: 2
-Termino: principalmente                                     TF: 9      DF: 7
 Termino: principalmentecon                                  TF: 1      DF: 1
 Termino: principaux                                         TF: 1      DF: 1
-Termino: principio                                          TF: 26     DF: 9
 Termino: principios                                         TF: 45     DF: 18
 Termino: pringles                                           TF: 6      DF: 5
 Termino: print                                              TF: 74     DF: 6
@@ -29509,7 +29262,6 @@ Termino: pronnestico                                        TF: 2      DF: 2
 Termino: pronnesticos                                       TF: 1      DF: 1
 Termino: prontamente                                        TF: 1      DF: 1
 Termino: pronte                                             TF: 3      DF: 1
-Termino: pronto                                             TF: 3      DF: 2
 Termino: pronuncia                                          TF: 1      DF: 1
 Termino: pronunciaron                                       TF: 1      DF: 1
 Termino: propagacinen                                       TF: 3      DF: 3
@@ -29520,9 +29272,7 @@ Termino: propender                                          TF: 1      DF: 1
 Termino: propensi                                           TF: 1      DF: 1
 Termino: proper                                             TF: 1      DF: 1
 Termino: properties                                         TF: 1      DF: 1
-Termino: propia                                             TF: 30     DF: 15
 Termino: propiamente                                        TF: 7      DF: 4
-Termino: propias                                            TF: 21     DF: 15
 Termino: propicia                                           TF: 2      DF: 2
 Termino: propiciada                                         TF: 1      DF: 1
 Termino: propiciado                                         TF: 1      DF: 1
@@ -29533,8 +29283,6 @@ Termino: propicine                                          TF: 1      DF: 1
 Termino: propicio                                           TF: 2      DF: 1
 Termino: propiedad                                          TF: 13     DF: 9
 Termino: propiedades                                        TF: 20     DF: 9
-Termino: propio                                             TF: 42     DF: 17
-Termino: propios                                            TF: 13     DF: 6
 Termino: propneleos                                         TF: 1      DF: 1
 Termino: propnesito                                         TF: 34     DF: 19
 Termino: propnesitos                                        TF: 5      DF: 4
@@ -29843,15 +29591,11 @@ Termino: pudieran                                           TF: 2      DF: 2
 Termino: pudieron                                           TF: 3      DF: 2
 Termino: pudiese                                            TF: 1      DF: 1
 Termino: pudimos                                            TF: 2      DF: 1
-Termino: pudo                                               TF: 6      DF: 4
 Termino: pudor                                              TF: 1      DF: 1
 Termino: pueblo                                             TF: 19     DF: 5
 Termino: pueblos                                            TF: 7      DF: 5
-Termino: pueda                                              TF: 21     DF: 10
 Termino: puedan                                             TF: 29     DF: 16
 Termino: puedas                                             TF: 2      DF: 2
-Termino: puede                                              TF: 223    DF: 68
-Termino: pueden                                             TF: 134    DF: 56
 Termino: puedensolicitar                                    TF: 1      DF: 1
 Termino: puedes                                             TF: 3      DF: 3
 Termino: puedo                                              TF: 11     DF: 4
@@ -29865,10 +29609,8 @@ Termino: puertas                                            TF: 30     DF: 16
 Termino: puerto                                             TF: 8      DF: 6
 Termino: puertorriquennidad                                 TF: 1      DF: 1
 Termino: puertos                                            TF: 1      DF: 1
-Termino: pues                                               TF: 18     DF: 8
 Termino: puesta                                             TF: 14     DF: 8
 Termino: puestas                                            TF: 2      DF: 2
-Termino: puesto                                             TF: 25     DF: 11
 Termino: puestos                                            TF: 2      DF: 2
 Termino: pueyrrednen                                        TF: 2      DF: 1
 Termino: pueyrredon                                         TF: 2      DF: 2
@@ -29942,7 +29684,6 @@ Termino: quantica                                           TF: 1      DF: 1
 Termino: quantitative                                       TF: 1      DF: 1
 Termino: quantum                                            TF: 2      DF: 2
 Termino: quasso                                             TF: 1      DF: 1
-Termino: que                                                TF: 4585   DF: 249
 Termino: que-hacer                                          TF: 1      DF: 1
 Termino: queademn                                           TF: 1      DF: 1
 Termino: quebec                                             TF: 3      DF: 1
@@ -29975,7 +29716,6 @@ Termino: quequ                                              TF: 1      DF: 1
 Termino: quequen                                            TF: 2      DF: 1
 Termino: quequnen                                           TF: 12     DF: 1
 Termino: querellas                                          TF: 1      DF: 1
-Termino: queremos                                           TF: 10     DF: 7
 Termino: querer                                             TF: 4      DF: 3
 Termino: quererlo                                           TF: 1      DF: 1
 Termino: queres                                             TF: 1      DF: 1
@@ -30002,12 +29742,9 @@ Termino: quickstart                                         TF: 1      DF: 1
 Termino: quicos                                             TF: 2      DF: 1
 Termino: quiebra                                            TF: 2      DF: 2
 Termino: quiebras                                           TF: 1      DF: 1
-Termino: quien                                              TF: 45     DF: 16
-Termino: quienes                                            TF: 78     DF: 43
 Termino: quiera                                             TF: 2      DF: 1
 Termino: quieran                                            TF: 12     DF: 10
 Termino: quieras                                            TF: 4      DF: 3
-Termino: quiere                                             TF: 40     DF: 10
 Termino: quieren                                            TF: 5      DF: 1
 Termino: quieres                                            TF: 3      DF: 3
 Termino: quiero                                             TF: 30     DF: 4
@@ -30019,7 +29756,6 @@ Termino: quimica                                            TF: 28     DF: 5
 Termino: quimin@mail                                        TF: 1      DF: 1
 Termino: quina                                              TF: 6      DF: 3
 Termino: quinas                                             TF: 22     DF: 6
-Termino: quince                                             TF: 4      DF: 3
 Termino: quincena                                           TF: 2      DF: 2
 Termino: quincenal                                          TF: 1      DF: 1
 Termino: quincenalmente                                     TF: 2      DF: 1
@@ -30036,7 +29772,6 @@ Termino: quinta                                             TF: 2      DF: 2
 Termino: quintero                                           TF: 4      DF: 2
 Termino: quinteros                                          TF: 2      DF: 2
 Termino: quinteto                                           TF: 4      DF: 2
-Termino: quinto                                             TF: 35     DF: 7
 Termino: quintral                                           TF: 1      DF: 1
 Termino: quintuplicado                                      TF: 1      DF: 1
 Termino: quipus                                             TF: 3      DF: 1
@@ -30178,7 +29913,6 @@ Termino: raponi                                             TF: 1      DF: 1
 Termino: rapto                                              TF: 1      DF: 1
 Termino: raquel                                             TF: 2      DF: 2
 Termino: raquel2011-11-0330                                 TF: 2      DF: 1
-Termino: raquo                                              TF: 1222   DF: 40
 Termino: rara                                               TF: 1      DF: 1
 Termino: rarezas                                            TF: 1      DF: 1
 Termino: rarlunes                                           TF: 1      DF: 1
@@ -30282,7 +30016,6 @@ Termino: realizacinon                                       TF: 1      DF: 1
 Termino: realizaciones                                      TF: 1      DF: 1
 Termino: realizada                                          TF: 18     DF: 14
 Termino: realizadas                                         TF: 26     DF: 19
-Termino: realizado                                          TF: 52     DF: 20
 Termino: realizador                                         TF: 1      DF: 1
 Termino: realizadores                                       TF: 2      DF: 2
 Termino: realizados                                         TF: 28     DF: 17
@@ -30290,7 +30023,6 @@ Termino: realizamo                                          TF: 2      DF: 1
 Termino: realizamos                                         TF: 4      DF: 4
 Termino: realizan                                           TF: 29     DF: 23
 Termino: realizando                                         TF: 5      DF: 5
-Termino: realizar                                           TF: 125    DF: 68
 Termino: realizara                                          TF: 4      DF: 3
 Termino: realizaremos                                       TF: 2      DF: 1
 Termino: realizarn                                          TF: 72     DF: 40
@@ -31078,7 +30810,6 @@ Termino: repeat-x                                           TF: 30     DF: 14
 Termino: repeat-y                                           TF: 7      DF: 5
 Termino: repeatcount                                        TF: 1      DF: 1
 Termino: repensar                                           TF: 4      DF: 4
-Termino: repente                                            TF: 3      DF: 1
 Termino: repentina                                          TF: 1      DF: 1
 Termino: repentinamente                                     TF: 1      DF: 1
 Termino: repercusinen                                       TF: 1      DF: 1
@@ -31310,7 +31041,6 @@ Termino: respectivamente                                    TF: 2      DF: 2
 Termino: respectivas                                        TF: 11     DF: 9
 Termino: respectivo                                         TF: 8      DF: 7
 Termino: respectivos                                        TF: 7      DF: 5
-Termino: respecto                                           TF: 61     DF: 21
 Termino: respetan                                           TF: 3      DF: 2
 Termino: respetando                                         TF: 6      DF: 6
 Termino: respetar                                           TF: 4      DF: 2
@@ -32261,10 +31991,8 @@ Termino: scrolltop                                          TF: 3      DF: 1
 Termino: sculas                                             TF: 2      DF: 1
 Termino: sculo                                              TF: 2      DF: 2
 Termino: sdn                                                TF: 1      DF: 1
-Termino: sea                                                TF: 67     DF: 31
 Termino: seacad@unlu                                        TF: 2      DF: 1
 Termino: sead                                               TF: 3      DF: 2
-Termino: sean                                               TF: 20     DF: 17
 Termino: search                                             TF: 72     DF: 29
 Termino: search-site                                        TF: 1      DF: 1
 Termino: searchbox                                          TF: 4      DF: 1
@@ -32372,10 +32100,7 @@ Termino: seguiremos                                         TF: 2      DF: 2
 Termino: seguirn                                            TF: 1      DF: 1
 Termino: seguirnos                                          TF: 1      DF: 1
 Termino: seguirnua                                          TF: 1      DF: 1
-Termino: segun                                              TF: 1      DF: 1
-Termino: segunda                                            TF: 61     DF: 31
 Termino: segundas                                           TF: 10     DF: 1
-Termino: segundo                                            TF: 95     DF: 38
 Termino: segundocongreso                                    TF: 1      DF: 1
 Termino: segundos                                           TF: 13     DF: 5
 Termino: segunu                                             TF: 3      DF: 3
@@ -32386,7 +32111,6 @@ Termino: seguro                                             TF: 22     DF: 11
 Termino: seguros                                            TF: 16     DF: 10
 Termino: seidmann                                           TF: 1      DF: 1
 Termino: seillant                                           TF: 2      DF: 1
-Termino: seis                                               TF: 14     DF: 10
 Termino: sel                                                TF: 26     DF: 11
 Termino: sela                                               TF: 2      DF: 1
 Termino: selajp@gmx                                         TF: 2      DF: 1
@@ -32592,7 +32316,6 @@ Termino: septiembrecurso                                    TF: 1      DF: 1
 Termino: sepyme                                             TF: 1      DF: 1
 Termino: sequence                                           TF: 1      DF: 1
 Termino: sequencing                                         TF: 2      DF: 1
-Termino: ser                                                TF: 299    DF: 71
 Termino: sera                                               TF: 1      DF: 1
 Termino: serafini                                           TF: 1      DF: 1
 Termino: seran                                              TF: 1      DF: 1
@@ -32654,7 +32377,6 @@ Termino: servirnos                                          TF: 1      DF: 1
 Termino: servlet                                            TF: 3      DF: 1
 Termino: servlets                                           TF: 1      DF: 1
 Termino: ses                                                TF: 1      DF: 1
-Termino: sesenta                                            TF: 15     DF: 4
 Termino: sesgo                                              TF: 1      DF: 1
 Termino: sesi                                               TF: 1      DF: 1
 Termino: sesinen                                            TF: 35     DF: 27
@@ -32678,7 +32400,6 @@ Termino: setcurrent                                         TF: 7      DF: 1
 Termino: setcustomvar                                       TF: 6      DF: 2
 Termino: setdirection                                       TF: 4      DF: 1
 Termino: setdomainname                                      TF: 15     DF: 5
-Termino: setenta                                            TF: 8      DF: 5
 Termino: setescientos                                       TF: 1      DF: 1
 Termino: setfocus                                           TF: 8      DF: 6
 Termino: sethomepage                                        TF: 6      DF: 1
@@ -32799,11 +32520,8 @@ Termino: sidalc                                             TF: 1      DF: 1
 Termino: side                                               TF: 1      DF: 1
 Termino: sidebar                                            TF: 14     DF: 3
 Termino: sidentif                                           TF: 2      DF: 1
-Termino: sido                                               TF: 84     DF: 41
 Termino: sidoredireccionado                                 TF: 1      DF: 1
 Termino: siede                                              TF: 3      DF: 2
-Termino: siempre                                            TF: 81     DF: 21
-Termino: siendo                                             TF: 21     DF: 11
 Termino: sienta                                             TF: 1      DF: 1
 Termino: sientan                                            TF: 1      DF: 1
 Termino: siente                                             TF: 6      DF: 4
@@ -32812,7 +32530,6 @@ Termino: siento                                             TF: 2      DF: 2
 Termino: sierra                                             TF: 9      DF: 4
 Termino: sierras                                            TF: 5      DF: 2
 Termino: siet                                               TF: 2      DF: 1
-Termino: siete                                              TF: 12     DF: 9
 Termino: sig                                                TF: 2      DF: 2
 Termino: siga                                               TF: 4      DF: 3
 Termino: sigan                                              TF: 2      DF: 2
@@ -32864,11 +32581,9 @@ Termino: signotreplace                                      TF: 3      DF: 3
 Termino: signout                                            TF: 2      DF: 1
 Termino: sigo                                               TF: 2      DF: 2
 Termino: sigreplace                                         TF: 3      DF: 3
-Termino: sigue                                              TF: 16     DF: 10
 Termino: siguen                                             TF: 3      DF: 3
 Termino: siguentes                                          TF: 1      DF: 1
 Termino: siguiendo                                          TF: 8      DF: 5
-Termino: siguiente                                          TF: 102    DF: 52
 Termino: siguientes                                         TF: 100    DF: 48
 Termino: siguiera                                           TF: 1      DF: 1
 Termino: siguietne                                          TF: 1      DF: 1
@@ -32926,7 +32641,6 @@ Termino: simulador                                          TF: 2      DF: 1
 Termino: simultaneamente                                    TF: 1      DF: 1
 Termino: simultaneidades                                    TF: 1      DF: 1
 Termino: simultn                                            TF: 9      DF: 6
-Termino: sin                                                TF: 265    DF: 82
 Termino: sinaloa                                            TF: 1      DF: 1
 Termino: since                                              TF: 2      DF: 2
 Termino: sinceramente                                       TF: 1      DF: 1
@@ -32958,7 +32672,6 @@ Termino: siniestros                                         TF: 4      DF: 2
 Termino: sininterpretacinen                                 TF: 1      DF: 1
 Termino: sinn                                               TF: 1      DF: 1
 Termino: sinnn                                              TF: 3      DF: 2
-Termino: sino                                               TF: 122    DF: 28
 Termino: sinoen                                             TF: 1      DF: 1
 Termino: sinopsis                                           TF: 2      DF: 2
 Termino: sinos                                              TF: 1      DF: 1
@@ -33066,7 +32779,6 @@ Termino: siu2002-2012vinculador                             TF: 2      DF: 2
 Termino: siufade                                            TF: 1      DF: 1
 Termino: sivia                                              TF: 1      DF: 1
 Termino: siycg                                              TF: 1      DF: 1
-Termino: size                                               TF: 44     DF: 19
 Termino: sizes                                              TF: 2      DF: 1
 Termino: sizingmethod                                       TF: 1      DF: 1
 Termino: sjl                                                TF: 1      DF: 1
@@ -33180,7 +32892,6 @@ Termino: soberannua                                         TF: 8      DF: 3
 Termino: soberannuas                                        TF: 1      DF: 1
 Termino: soberano                                           TF: 1      DF: 1
 Termino: sobradamente                                       TF: 1      DF: 1
-Termino: sobre                                              TF: 698    DF: 151
 Termino: sobrecargadas                                      TF: 1      DF: 1
 Termino: sobrecargado                                       TF: 1      DF: 1
 Termino: sobrecargar                                        TF: 1      DF: 1
@@ -33316,9 +33027,7 @@ Termino: soimageshow                                        TF: 35     DF: 1
 Termino: soja                                               TF: 3      DF: 2
 Termino: soken                                              TF: 1      DF: 1
 Termino: sol                                                TF: 15     DF: 8
-Termino: sola                                               TF: 6      DF: 4
 Termino: solados                                            TF: 1      DF: 1
-Termino: solamente                                          TF: 25     DF: 9
 Termino: solana                                             TF: 1      DF: 1
 Termino: solanasespacio                                     TF: 1      DF: 1
 Termino: solange                                            TF: 1      DF: 1
@@ -33375,7 +33084,6 @@ Termino: solitarios                                         TF: 1      DF: 1
 Termino: soliv                                              TF: 1      DF: 1
 Termino: solnua                                             TF: 1      DF: 1
 Termino: solnus                                             TF: 15     DF: 5
-Termino: solo                                               TF: 63     DF: 28
 Termino: solsona                                            TF: 1      DF: 1
 Termino: solucinen                                          TF: 10     DF: 9
 Termino: solucionan                                         TF: 1      DF: 1
@@ -33408,7 +33116,6 @@ Termino: somn                                               TF: 2      DF: 1
 Termino: somos                                              TF: 20     DF: 9
 Termino: somosautoridadesresenna                            TF: 1      DF: 1
 Termino: somoza                                             TF: 3      DF: 3
-Termino: son                                                TF: 258    DF: 75
 Termino: sonaba                                             TF: 1      DF: 1
 Termino: sonado                                             TF: 1      DF: 1
 Termino: sonantes                                           TF: 1      DF: 1
@@ -34024,7 +33731,6 @@ Termino: surjan                                             TF: 2      DF: 2
 Termino: suroeste                                           TF: 1      DF: 1
 Termino: surreaux                                           TF: 1      DF: 1
 Termino: surt                                               TF: 1      DF: 1
-Termino: sus                                                TF: 592    DF: 146
 Termino: susactividades                                     TF: 1      DF: 1
 Termino: susana                                             TF: 36     DF: 18
 Termino: susana2010-11-2318                                 TF: 2      DF: 1
@@ -34091,9 +33797,6 @@ Termino: sustranuda                                         TF: 1      DF: 1
 Termino: sustranudo                                         TF: 1      DF: 1
 Termino: susubscripcinen                                    TF: 2      DF: 1
 Termino: sutilmente                                         TF: 1      DF: 1
-Termino: suya                                               TF: 2      DF: 2
-Termino: suyo                                               TF: 4      DF: 2
-Termino: suyos                                              TF: 1      DF: 1
 Termino: svampa                                             TF: 1      DF: 1
 Termino: svensk                                             TF: 1      DF: 1
 Termino: svenska                                            TF: 3      DF: 3
@@ -34193,14 +33896,12 @@ Termino: tais                                               TF: 1      DF: 1
 Termino: taiwn                                              TF: 1      DF: 1
 Termino: take                                               TF: 2      DF: 2
 Termino: takes                                              TF: 1      DF: 1
-Termino: tal                                                TF: 86     DF: 33
 Termino: tala                                               TF: 1      DF: 1
 Termino: taladriz                                           TF: 1      DF: 1
 Termino: talent                                             TF: 22     DF: 1
 Termino: talento                                            TF: 1      DF: 1
 Termino: talentos                                           TF: 4      DF: 2
 Termino: talerico                                           TF: 1      DF: 1
-Termino: tales                                              TF: 31     DF: 21
 Termino: talks                                              TF: 4      DF: 2
 Termino: tallado                                            TF: 1      DF: 1
 Termino: taller                                             TF: 132    DF: 32
@@ -34220,12 +33921,9 @@ Termino: tamara                                             TF: 2      DF: 2
 Termino: tamarit                                            TF: 4      DF: 2
 Termino: tamayo                                             TF: 1      DF: 1
 Termino: tambi                                              TF: 6      DF: 3
-Termino: tambien                                            TF: 5      DF: 5
 Termino: tambinen                                           TF: 238    DF: 77
 Termino: tambinun                                           TF: 1      DF: 1
 Termino: tamiento                                           TF: 1      DF: 1
-Termino: tampoco                                            TF: 13     DF: 4
-Termino: tan                                                TF: 21     DF: 9
 Termino: tanatopolnutica                                    TF: 1      DF: 1
 Termino: tanda                                              TF: 1      DF: 1
 Termino: tandar                                             TF: 1      DF: 1
@@ -34243,16 +33941,12 @@ Termino: tangueros                                          TF: 1      DF: 1
 Termino: tanodi                                             TF: 1      DF: 1
 Termino: tanque                                             TF: 3      DF: 2
 Termino: tant                                               TF: 1      DF: 1
-Termino: tantas                                             TF: 4      DF: 4
 Termino: tanteraautores                                     TF: 1      DF: 1
-Termino: tanto                                              TF: 167    DF: 65
-Termino: tantos                                             TF: 5      DF: 3
 Termino: tapia                                              TF: 1      DF: 1
 Termino: tapitas                                            TF: 4      DF: 2
 Termino: taquigrn                                           TF: 1      DF: 1
 Termino: taquini                                            TF: 1      DF: 1
 Termino: tardar                                             TF: 2      DF: 2
-Termino: tarde                                              TF: 30     DF: 18
 Termino: tardnao                                            TF: 2      DF: 1
 Termino: tardnua                                            TF: 3      DF: 2
 Termino: tardnuamente                                       TF: 1      DF: 1
@@ -34478,10 +34172,8 @@ Termino: tendrne                                            TF: 1      DF: 1
 Termino: tendrnua                                           TF: 2      DF: 1
 Termino: tenebrosos                                         TF: 1      DF: 1
 Termino: tenelogos                                          TF: 1      DF: 1
-Termino: tenemos                                            TF: 31     DF: 11
 Termino: tenemos2                                           TF: 1      DF: 1
 Termino: tenencia                                           TF: 2      DF: 2
-Termino: tener                                              TF: 84     DF: 36
 Termino: tenerica                                           TF: 30     DF: 16
 Termino: tenericamente                                      TF: 1      DF: 1
 Termino: tenericas                                          TF: 32     DF: 16
@@ -34492,13 +34184,10 @@ Termino: tenerico-prn                                       TF: 5      DF: 4
 Termino: tenericos                                          TF: 21     DF: 11
 Termino: tenerse                                            TF: 1      DF: 1
 Termino: tenes                                              TF: 4      DF: 3
-Termino: tenga                                              TF: 20     DF: 9
 Termino: tengan                                             TF: 18     DF: 11
 Termino: tengas                                             TF: 1      DF: 1
-Termino: tengo                                              TF: 14     DF: 4
 Termino: tenia                                              TF: 3      DF: 1
 Termino: tenidas                                            TF: 1      DF: 1
-Termino: tenido                                             TF: 11     DF: 9
 Termino: teniendo                                           TF: 19     DF: 15
 Termino: teniente                                           TF: 1      DF: 1
 Termino: tenis                                              TF: 3      DF: 3
@@ -34541,10 +34230,8 @@ Termino: terapneutica                                       TF: 3      DF: 2
 Termino: terapneutico                                       TF: 3      DF: 2
 Termino: terapneuticos                                      TF: 2      DF: 2
 Termino: tercer                                             TF: 54     DF: 22
-Termino: tercera                                            TF: 19     DF: 8
 Termino: terceras                                           TF: 1      DF: 1
 Termino: tercercongreso                                     TF: 1      DF: 1
-Termino: tercero                                            TF: 1      DF: 1
 Termino: tercero-cuarto                                     TF: 1      DF: 1
 Termino: terceros                                           TF: 18     DF: 11
 Termino: tercerossitios                                     TF: 1      DF: 1
@@ -34785,8 +34472,6 @@ Termino: tienda                                             TF: 3      DF: 1
 Termino: tiendan                                            TF: 1      DF: 1
 Termino: tiende                                             TF: 5      DF: 4
 Termino: tienden                                            TF: 6      DF: 4
-Termino: tiene                                              TF: 271    DF: 90
-Termino: tienen                                             TF: 71     DF: 35
 Termino: tienes                                             TF: 10     DF: 6
 Termino: tienta                                             TF: 1      DF: 1
 Termino: tierno                                             TF: 1      DF: 1
@@ -34950,15 +34635,10 @@ Termino: tocante                                            TF: 1      DF: 1
 Termino: tocar                                              TF: 2      DF: 2
 Termino: tocci                                              TF: 1      DF: 1
 Termino: toco                                               TF: 1      DF: 1
-Termino: toda                                               TF: 101    DF: 40
-Termino: todas                                              TF: 175    DF: 78
 Termino: todav                                              TF: 1      DF: 1
-Termino: todavia                                            TF: 2      DF: 1
 Termino: todavnua                                           TF: 14     DF: 3
 Termino: today                                              TF: 11     DF: 2
-Termino: todo                                               TF: 176    DF: 55
 Termino: todopos                                            TF: 1      DF: 1
-Termino: todos                                              TF: 338    DF: 121
 Termino: toefl                                              TF: 1      DF: 1
 Termino: toeic                                              TF: 1      DF: 1
 Termino: toelement                                          TF: 20     DF: 9
@@ -35066,7 +34746,6 @@ Termino: toscani                                            TF: 1      DF: 1
 Termino: tosco                                              TF: 1      DF: 1
 Termino: tosoratti                                          TF: 1      DF: 1
 Termino: tossi                                              TF: 1      DF: 1
-Termino: total                                              TF: 39     DF: 18
 Termino: totales                                            TF: 1      DF: 1
 Termino: totalidad                                          TF: 20     DF: 10
 Termino: totalitarios                                       TF: 1      DF: 1
@@ -35301,7 +34980,6 @@ Termino: trapiche                                           TF: 1      DF: 1
 Termino: trapo                                              TF: 1      DF: 1
 Termino: trapos                                             TF: 1      DF: 1
 Termino: trapped                                            TF: 1      DF: 1
-Termino: tras                                               TF: 16     DF: 9
 Termino: trascendencia                                      TF: 1      DF: 1
 Termino: trascendente                                       TF: 2      DF: 2
 Termino: trascendentes                                      TF: 2      DF: 2
@@ -35327,7 +35005,6 @@ Termino: traspaso                                           TF: 2      DF: 2
 Termino: trasplante                                         TF: 4      DF: 1
 Termino: trastornos                                         TF: 4      DF: 3
 Termino: trasvasarlos                                       TF: 1      DF: 1
-Termino: trata                                              TF: 50     DF: 22
 Termino: trataba                                            TF: 2      DF: 2
 Termino: trataban                                           TF: 1      DF: 1
 Termino: tratado                                            TF: 3      DF: 2
@@ -35355,7 +35032,6 @@ Termino: trav                                               TF: 4      DF: 3
 Termino: travail                                            TF: 1      DF: 1
 Termino: travella                                           TF: 1      DF: 1
 Termino: travers                                            TF: 1      DF: 1
-Termino: traves                                             TF: 3      DF: 3
 Termino: travesnuas                                         TF: 1      DF: 1
 Termino: travnes                                            TF: 215    DF: 92
 Termino: trayecto                                           TF: 5      DF: 3
@@ -35370,12 +35046,10 @@ Termino: trebol                                             TF: 1      DF: 1
 Termino: trebuchet                                          TF: 64     DF: 6
 Termino: trec                                               TF: 1      DF: 1
 Termino: trec-eval                                          TF: 1      DF: 1
-Termino: trece                                              TF: 3      DF: 2
 Termino: trees                                              TF: 1      DF: 1
 Termino: trefemac                                           TF: 2      DF: 1
 Termino: trefemac2010@gmail                                 TF: 1      DF: 1
 Termino: tregua                                             TF: 1      DF: 1
-Termino: treinta                                            TF: 12     DF: 5
 Termino: treintavo                                          TF: 1      DF: 1
 Termino: trejo                                              TF: 10     DF: 5
 Termino: trelew                                             TF: 5      DF: 3
@@ -35385,7 +35059,6 @@ Termino: tremendo                                           TF: 1      DF: 1
 Termino: tren                                               TF: 1      DF: 1
 Termino: trento                                             TF: 1      DF: 1
 Termino: trepode                                            TF: 1      DF: 1
-Termino: tres                                               TF: 112    DF: 46
 Termino: trescientas                                        TF: 1      DF: 1
 Termino: trial                                              TF: 1      DF: 1
 Termino: trialista                                          TF: 2      DF: 1
@@ -35510,7 +35183,6 @@ Termino: turnusticas                                        TF: 5      DF: 2
 Termino: turnustico                                         TF: 25     DF: 7
 Termino: turnusticos                                        TF: 11     DF: 3
 Termino: tur≈otica                                          TF: 2      DF: 1
-Termino: tus                                                TF: 37     DF: 20
 Termino: tusitio                                            TF: 1      DF: 1
 Termino: tusquets                                           TF: 1      DF: 1
 Termino: tussie                                             TF: 1      DF: 1
@@ -35538,7 +35210,6 @@ Termino: tuviera                                            TF: 2      DF: 2
 Termino: tuvieron                                           TF: 8      DF: 5
 Termino: tuviesen                                           TF: 3      DF: 3
 Termino: tuvimos                                            TF: 3      DF: 3
-Termino: tuvo                                               TF: 22     DF: 15
 Termino: tvradio                                            TF: 1      DF: 1
 Termino: tweet                                              TF: 6      DF: 2
 Termino: tweets                                             TF: 1      DF: 1
@@ -35782,12 +35453,10 @@ Termino: umicael                                            TF: 1      DF: 1
 Termino: umicaqun                                           TF: 2      DF: 2
 Termino: uml                                                TF: 1      DF: 1
 Termino: un3pf7sdzoo                                        TF: 2      DF: 1
-Termino: una                                                TF: 1665   DF: 206
 Termino: unach                                              TF: 3      DF: 1
 Termino: unainvestigacinen                                  TF: 1      DF: 1
 Termino: unam                                               TF: 4      DF: 3
 Termino: unanimidad                                         TF: 3      DF: 2
-Termino: unas                                               TF: 3      DF: 3
 Termino: unavailable                                        TF: 1      DF: 1
 Termino: unc                                                TF: 140    DF: 25
 Termino: uncategorized                                      TF: 1      DF: 1
@@ -35975,8 +35644,6 @@ Termino: unne-virtual                                       TF: 3      DF: 2
 Termino: unnever                                            TF: 1      DF: 1
 Termino: unnoba                                             TF: 62     DF: 8
 Termino: unnuevo                                            TF: 1      DF: 1
-Termino: uno                                                TF: 203    DF: 48
-Termino: unos                                               TF: 16     DF: 6
 Termino: unp                                                TF: 7      DF: 2
 Termino: unpa                                               TF: 2      DF: 1
 Termino: unplan                                             TF: 1      DF: 1
@@ -36116,8 +35783,6 @@ Termino: uspt                                               TF: 14     DF: 1
 Termino: usr                                                TF: 2      DF: 1
 Termino: usrname                                            TF: 2      DF: 1
 Termino: ustariz                                            TF: 1      DF: 1
-Termino: usted                                              TF: 61     DF: 34
-Termino: ustedes                                            TF: 48     DF: 4
 Termino: ustica                                             TF: 6      DF: 1
 Termino: usticas                                            TF: 6      DF: 4
 Termino: usticos                                            TF: 2      DF: 1
@@ -36321,8 +35986,6 @@ Termino: values                                             TF: 6      DF: 4
 Termino: valuesjquery                                       TF: 1      DF: 1
 Termino: valverde                                           TF: 1      DF: 1
 Termino: valzacchi                                          TF: 2      DF: 1
-Termino: vamos                                              TF: 7      DF: 4
-Termino: van                                                TF: 17     DF: 9
 Termino: vana                                               TF: 1      DF: 1
 Termino: vanagloriarse                                      TF: 1      DF: 1
 Termino: vanesa                                             TF: 3      DF: 3
@@ -36334,7 +35997,6 @@ Termino: vano                                               TF: 2      DF: 2
 Termino: vapor                                              TF: 1      DF: 1
 Termino: vaquernuas                                         TF: 1      DF: 1
 Termino: vaquillonas                                        TF: 1      DF: 1
-Termino: var                                                TF: 2522   DF: 198
 Termino: varbotpcipal                                       TF: 1      DF: 1
 Termino: varbotsec                                          TF: 1      DF: 1
 Termino: varela                                             TF: 18     DF: 15
@@ -36352,12 +36014,10 @@ Termino: variamos                                           TF: 1      DF: 1
 Termino: variando                                           TF: 2      DF: 1
 Termino: variantes                                          TF: 1      DF: 1
 Termino: variar                                             TF: 1      DF: 1
-Termino: varias                                             TF: 21     DF: 16
 Termino: variedad                                           TF: 18     DF: 13
 Termino: variedades                                         TF: 1      DF: 1
 Termino: varillas                                           TF: 3      DF: 2
 Termino: varilrix                                           TF: 2      DF: 1
-Termino: varios                                             TF: 54     DF: 29
 Termino: varios1imn                                         TF: 1      DF: 1
 Termino: various                                            TF: 2      DF: 1
 Termino: varn                                               TF: 1      DF: 1
@@ -36399,7 +36059,6 @@ Termino: vecchi                                             TF: 1      DF: 1
 Termino: vecchiarto                                         TF: 1      DF: 1
 Termino: vecchio                                            TF: 1      DF: 1
 Termino: vecchiola                                          TF: 1      DF: 1
-Termino: veces                                              TF: 31     DF: 6
 Termino: vecinal                                            TF: 1      DF: 1
 Termino: vecinas                                            TF: 2      DF: 2
 Termino: vecinos                                            TF: 3      DF: 3
@@ -36418,7 +36077,6 @@ Termino: vegetal                                            TF: 24     DF: 9
 Termino: vegetales                                          TF: 7      DF: 4
 Termino: vegh                                               TF: 7      DF: 1
 Termino: vehnuculo                                          TF: 2      DF: 1
-Termino: veinte                                             TF: 10     DF: 6
 Termino: veinticinco                                        TF: 1      DF: 1
 Termino: veinticuatro                                       TF: 1      DF: 1
 Termino: veintiuno                                          TF: 2      DF: 1
@@ -36484,7 +36142,6 @@ Termino: ventv                                              TF: 1      DF: 1
 Termino: ventvel                                            TF: 1      DF: 1
 Termino: venuan                                             TF: 1      DF: 1
 Termino: veo                                                TF: 1      DF: 1
-Termino: ver                                                TF: 413    DF: 103
 Termino: vera                                               TF: 10     DF: 5
 Termino: veracidad                                          TF: 1      DF: 1
 Termino: veracruzana                                        TF: 2      DF: 1
@@ -36596,7 +36253,6 @@ Termino: vetusta                                            TF: 1      DF: 1
 Termino: vetusto                                            TF: 1      DF: 1
 Termino: vetustos                                           TF: 1      DF: 1
 Termino: vexiolog                                           TF: 1      DF: 1
-Termino: vez                                                TF: 126    DF: 52
 Termino: vframes                                            TF: 8      DF: 1
 Termino: vhosts04                                           TF: 1      DF: 1
 Termino: via                                                TF: 22     DF: 8
@@ -37029,7 +36685,6 @@ Termino: vuelvan                                            TF: 1      DF: 1
 Termino: vuelve                                             TF: 5      DF: 4
 Termino: vuelvo                                             TF: 2      DF: 1
 Termino: vuestra                                            TF: 1      DF: 1
-Termino: vuestro                                            TF: 1      DF: 1
 Termino: vulnerabilidad                                     TF: 7      DF: 3
 Termino: vulnerables                                        TF: 6      DF: 3
 Termino: vulnerado                                          TF: 1      DF: 1
