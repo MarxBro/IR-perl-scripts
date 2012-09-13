@@ -32,7 +32,7 @@ while( $file = readdir( dir ) ) {
         
         # Abre el archivo
         open (IN,"$directorio_coleccion_gr/$file");
-        print "Analizando archivo: $file\n";
+        #print "Analizando archivo: $file\n";
         
         $estadisticas{"Cantidad de documentos procesados"} += 1;
         

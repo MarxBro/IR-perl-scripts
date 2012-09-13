@@ -3,6 +3,8 @@ package IR::General;
 #use strict;
 use warnings;
 
+use Switch
+
 our $VERSION = '1.0';
 
 use base 'Exporter';
@@ -41,9 +43,14 @@ Se encarga de dejar la linea del archivo lista para ser tokenizada en un paso po
 
 =cut
 
+### VARIABLES DEL MODULO
+
 # Tratamiento de palabras vacias
 $ignorar_palabras_vacias = 1; # 0: False; 1: True;
 @palabras_vacias = palabras_vacias();
+
+$tamano_minimo = 2;
+$tamano_maximo = 24; # Estudiar un poco mas
 
 # Definicion de la funcion palabras_vacias().
 sub palabras_vacias {
@@ -74,16 +81,23 @@ sub preparar_linea {
     
     chomp($linea);
     
-    # Agregamos separacion de espacios a caracteres que nos interesa ignorar en los tokens
-    
     # Eliminamos caracteres que no nos interesa procesar
-    $linea =~ tr/"+#%.<>\\\/“” ´'·¨‘’\(\)[]{};,:!¡¿?*\|º°~¦§ª=&/                                              /;
+    $linea =~ tr/"+#%.<>\\\/“” ´'·¨‘’\(\)[]{};:!¡¿?*\|º°~¦§ª=&_/                                               /;
     
     # Normalizamos caracteres
     $linea =~ tr/ñÑóíáéúüÓÍÁÉÚÜàèìòùÀÈÌÒÙâêîôûÂÊÎÔÛäëïöÄËÏÖåÅãÃõÕ/nNoiaeuuOIAEUUaeiouAEIOUaeiouAEIOUaeioAEIOaAaAoO/;
     
     # Pasamos todo a minuscula
     $linea =~ tr/A-Z/a-z/;
+    
+    # Si hay caracteres no numericos con , y sin espacio, eliminamos la , por un espacio
+    $linea =~ s/([a-z]+),/$1 /g;
+    $linea =~ s/,([a-z]+)/ $1/g;
+    
+    # Si encontramos numeros "pegados" a texto, lo separamos, y visceversa
+    #~ $linea =~ s/([0-9])([a-z])/$1 $2/g;
+    #~ $linea =~ s/([a-z])([0-9])/$1 $2/g;
+    # No usar, rompemos url, mails, etc..
     
     return $linea;
     
@@ -108,18 +122,22 @@ sub limpiar_token {
     
     my $token = shift;
     
+    # Si termina o empieza con punto u otro caracter que tmb lo reemplaze
+    $token =~ s/\.+$/ /g;
+    $token =~ s/^\.+/ /g;
+    $token =~ s/\,+$/ /g;
+    $token =~ s/^\,+/ /g;
+    $token =~ s/\++$/ /g;
+    $token =~ s/^\++/ /g;
+    $token =~ s/\$+$/ /g;
+    $token =~ s/^\$+/ /g;
+    $token =~ s/\%+$/ /g;
+    $token =~ s/^\%+/ /g;
+    $token =~ s/\-+$/ /g;
+    $token =~ s/^\-+/ /g;
+    
     # Eliminamos todos los espacios
     $token =~ s/\s//g;
-    
-    # Si termina con punto u otro caracter que tmb lo reemplaze
-    $token =~ s/\.+$//g;
-    $token =~ s/^\.+//g;
-    $token =~ s/\++$//g;
-    $token =~ s/^\++//g;
-    $token =~ s/\$+$//g;
-    $token =~ s/^\$+//g;
-    $token =~ s/\%+$//g;
-    $token =~ s/^\%+//g;
     
     return $token;
     
@@ -127,17 +145,51 @@ sub limpiar_token {
 
 # Definicion de token_valido()
 #   Esta funcion tiene como mision decidir que considera un token y que no
+#   Establecemos en el switch todas las estructuras validas, y al final, algunas
+#       condiciones adicionales de verificacion.
 sub token_valido {
     
     my $token = shift;
     
-    if( ( not $ignorar_palabras_vacias ) and ( not $token eq " " ) ) {
+    $token_valido = 0;
+    
+    if ( (not es_palabra_vacia($token)) and tiene_largo_adecuado($token) ) {
+    
+        switch ($token) {
+            
+            case m/[0-9]+[\.|\,]*[0-9]*[\.|\,]*[0-9]*/  { 
+                
+                # Formato de numero
+                $token_valido = 1;
+                
+            }
+            
+            case m/[a-z]+/ {
+                
+                # Formato palabras
+                $token_valido = 1;
+                
+            }
         
-        return 1;
+        }
+    
+    }
+    
+    return $token_valido;
+    
+}
+
+sub es_palabra_vacia {
+    
+    my $token = shift;
+    
+    if( $ignorar_palabras_vacias ) {
+        
+        return 0;
         
     } else {
         
-        if ( ( not ( $token ~~ @palabras_vacias ) ) and ( not $token eq " " ) ) {
+        if ( $token ~~ @palabras_vacias ) {
             
             return 1;
             
@@ -149,6 +201,33 @@ sub token_valido {
         
     }
     
+}
+
+sub tiene_largo_adecuado {
+    
+    my $token = shift;
+    
+    #~ # Solo se usa a fin de investigar los caracteres largos. Es poco performante asi que comentar en produccion
+    #~ if ( length($token) > $tamano_maximo ) {
+        #~ 
+        #~ open(OUT, ">>salidas/tokens_largos.txt");
+        #~ 
+        #~ print OUT "$token\n";
+        #~ 
+        #~ close(OUT);
+        #~ 
+    #~ }
+    
+    if ( ( length($token) > $tamano_minimo ) and ( length($token) < $tamano_maximo ) ) {
+        
+        return 1;
+        
+    } else {
+        
+        return 0;
+        
+    }
+        
 }
 
 =head1 AUTHOR
