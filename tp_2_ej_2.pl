@@ -1,21 +1,45 @@
 #!/usr/bin/perl
 system(clear);
-
+use utf8;
 #use encoding 'utf8';
 use lib('lib/');
-use IR::General;
+use IR::General2;
 
 #################
 ### Variables ###  
 #################
 
-$directorio_coleccion_gr = './colecciones/T12012-gr';
+$carpeta_salidas = "./salidas/ejercicio2";
 
-$archivo_terminos = './salidas/terminos.txt';
+$directorio_coleccion_gr = "./colecciones/T12012-gr";
 
-$archivo_estadisticas = './salidas/estadisticas.txt';
+$archivo_terminos = "$carpeta_salidas/terminos.txt";
 
-$archivo_frecuencias = './salidas/frecuencias.txt';
+$archivo_estadisticas = "$carpeta_salidas/estadisticas.txt";
+
+$archivo_frecuencias = "$carpeta_salidas/frecuencias.txt";
+
+###########################
+### Pre - Procesamiento ###
+###########################
+
+# Eliminamos algunos archivos de control que seran regenerados pos procesamiento
+
+@files = (  "$carpeta_salidas/tokens_invalidos.txt", 
+            "$carpeta_salidas/tokens_rechazados.txt", 
+            "$carpeta_salidas/tokens_abreviacion_tres_validos.txt", 
+            "$carpeta_salidas/tokens_abreviacion_dos_validos.txt", 
+            "$carpeta_salidas/tokens_abreviacion_uno_validos.txt", 
+            "$carpeta_salidas/tokens_minusculas_validos.txt", 
+            "$carpeta_salidas/tokens_numeros_validos.txt", 
+            "$carpeta_salidas/tokens_emails_validos.txt", 
+            "$carpeta_salidas/tokens_urls_con_http_validos.txt",
+            "$carpeta_salidas/tokens_nombres_propios_validos.txt",
+            "$carpeta_salidas/linea.txt" );
+            
+foreach $file (@files) {
+    unlink($file);
+}
 
 #####################
 ### Procesamiento ###
@@ -23,6 +47,8 @@ $archivo_frecuencias = './salidas/frecuencias.txt';
 
 # Abrimos el directorio
 opendir (dir, $directorio_coleccion_gr) or die "No se pudo abrir";
+
+#~ open(OUT, ">>salidas/ejercicio2/tokens_invalidos.txt");
 
 # Recorremos cada archivo
 while( $file = readdir( dir ) ) {
@@ -32,6 +58,7 @@ while( $file = readdir( dir ) ) {
         
         # Abre el archivo
         open (IN,"$directorio_coleccion_gr/$file");
+        binmode (IN, "utf8");
         #print "Analizando archivo: $file\n";
         
         $estadisticas{"Cantidad de documentos procesados"} += 1;
@@ -46,9 +73,9 @@ while( $file = readdir( dir ) ) {
             @tokens = tokenizar($linea);
             
             # Procesamos cada uno de los tokens de la linea
-            foreach $palabra ( @tokens ) {
+            foreach $token ( @tokens ) {
                 
-                $palabra = limpiar_token($palabra);
+                $palabra = limpiar_token($token);
                 
                 if ( token_valido( $palabra ) ) {
                     
@@ -61,7 +88,11 @@ while( $file = readdir( dir ) ) {
                     # Para despues calcular el DF
                     $frecuencias{$palabra}{$file} = 1;
                     
-                }
+                } #else {
+                    
+                    #~ print OUT "$palabra\n";
+                    #~ 
+                #~ }
                 
             }
             
@@ -72,6 +103,8 @@ while( $file = readdir( dir ) ) {
     }
 
 }
+
+#~ close(OUT);
 
 #########################
 ### Pos-procesamiento ###
