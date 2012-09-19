@@ -25,21 +25,21 @@ $archivo_frecuencias = "$carpeta_salidas/frecuencias.txt";
 
 # Eliminamos algunos archivos de control que seran regenerados pos procesamiento
 
-@files = (  "$carpeta_salidas/tokens_invalidos.txt", 
-            "$carpeta_salidas/tokens_rechazados.txt", 
-            "$carpeta_salidas/tokens_abreviacion_tres_validos.txt", 
-            "$carpeta_salidas/tokens_abreviacion_dos_validos.txt", 
-            "$carpeta_salidas/tokens_abreviacion_uno_validos.txt", 
-            "$carpeta_salidas/tokens_minusculas_validos.txt", 
-            "$carpeta_salidas/tokens_numeros_validos.txt", 
-            "$carpeta_salidas/tokens_emails_validos.txt", 
-            "$carpeta_salidas/tokens_urls_con_http_validos.txt",
-            "$carpeta_salidas/tokens_nombres_propios_validos.txt",
-            "$carpeta_salidas/linea.txt" );
-            
-foreach $file (@files) {
-    unlink($file);
-}
+#~ @files = (  "$carpeta_salidas/tokens_invalidos.txt", 
+            #~ "$carpeta_salidas/tokens_rechazados.txt", 
+            #~ "$carpeta_salidas/tokens_abreviacion_tres_validos.txt", 
+            #~ "$carpeta_salidas/tokens_abreviacion_dos_validos.txt", 
+            #~ "$carpeta_salidas/tokens_abreviacion_uno_validos.txt", 
+            #~ "$carpeta_salidas/tokens_minusculas_validos.txt", 
+            #~ "$carpeta_salidas/tokens_numeros_validos.txt", 
+            #~ "$carpeta_salidas/tokens_emails_validos.txt", 
+            #~ "$carpeta_salidas/tokens_urls_con_http_validos.txt",
+            #~ "$carpeta_salidas/tokens_nombres_propios_validos.txt",
+            #~ "$carpeta_salidas/linea.txt" );
+            #~ 
+#~ foreach $file (@files) {
+    #~ unlink($file);
+#~ }
 
 #####################
 ### Procesamiento ###

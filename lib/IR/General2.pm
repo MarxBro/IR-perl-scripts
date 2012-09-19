@@ -83,16 +83,16 @@ sub preparar_linea {
     
     chomp($linea);
     
-    open(OUT, ">>salidas/ejercicio2/linea.txt");
-    print OUT "$linea\n";
-    close(OUT);
+    #~ open(OUT, ">>salidas/ejercicio2/linea.txt");
+    #~ print OUT "$linea\n";
+    #~ close(OUT);
     
     # Eliminamos caracteres que no nos interesa procesar
     $linea =~ tr/"+#<>\\“” ´'·¨‘’\(\)[]{};!¡¿?*\|º°~¦§ª=&_/                                           /;
     
-    open(OUT, ">>salidas/ejercicio2/linea.txt");
-    print OUT "$linea\n";
-    close(OUT);
+    #~ open(OUT, ">>salidas/ejercicio2/linea.txt");
+    #~ print OUT "$linea\n";
+    #~ close(OUT);
     
     utf8::decode($linea);
     
@@ -101,14 +101,14 @@ sub preparar_linea {
     $linea =~ s/(é|É|è|È|ê|Ê|ë|Ë)/e/g;
     $linea =~ s/(í|Í|ì|Ì|î|Î|ï|Ï)/i/g;
     $linea =~ s/(ó|Ó|ò|Ò|ô|Ô|Ö|õ|Õ|ö)/o/g;
-    $linea =~ s/(ú|ü|Ú|Ü|ù|Ù|û|Û)/u/g;
+    $linea =~ s/(ú|Ú|ù|Ù|û|Ü|ü|Û)/u/g;
     $linea =~ s/(ñ|Ñ)/n/g;
     
-    open(OUT, ">>salidas/ejercicio2/linea.txt");
-    print OUT "$linea\n\n";
-    close(OUT);
+    #~ open(OUT, ">>salidas/ejercicio2/linea.txt");
+    #~ print OUT "$linea\n\n";
+    #~ close(OUT);
     
-    # Si hay caracteres no numericos con , y sin espacio, eliminamos la , por un espacio
+    # Si hay caracteres no numericos con , y sin espacio, agregamos un espacio entre de la coma
     $linea =~ s/([a-z]+),/$1 /g;
     $linea =~ s/,([a-z]+)/ $1/g;
     
@@ -142,7 +142,7 @@ sub limpiar_token {
     
     if ( not(token_valido($token) ) ) {
         
-        $token =~ tr/\/:\.,$%-+/        /;
+        #$token =~ tr/\/:\.,$%-+/        /;
         
         #~ $token =~ s/\,+$/ /g;
         #~ $token =~ s/^\,+/ /g;
@@ -184,9 +184,20 @@ sub token_valido {
     
         switch ($token) {
             
-            case m/^([0-9]+[\.|\,]*[0-9]*[\.|\,]*[0-9]+)$/  { 
+            case m/^([0-9]+[\.]?[0-9]+[\,]?[0-9]+)$/  { 
                 
-                # Formato de numero con separador de miles y decimales con coma
+                # Formato de numero 123.456,789
+                $token_valido = 1;
+                
+                #~ open(OUT, ">>salidas/ejercicio2/tokens_numeros_validos.txt");
+                #~ print OUT "$token\n";
+                #~ close(OUT);
+                
+            }
+            
+            case m/^([0-9]+[\,]?[0-9]+[\.]?[0-9]+)$/  { 
+                
+                # Formato de numero 123,456.789
                 $token_valido = 1;
                 
                 #~ open(OUT, ">>salidas/ejercicio2/tokens_numeros_validos.txt");
