@@ -1,0 +1,25 @@
+Los 10 terminos mas frencuentes de la coleccion:
+================================================
+universidad: 2334
+stm: 1752
+nacional: 1573
+facultad: 1309
+aix: 1231
+ciencias: 1109
+new: 943
+educacion: 925
+2012: 919
+investigacion: 902
+
+Los 10 terminos menos frencuentes de la coleccion:
+==================================================
+aeroespaciales: 1
+gisele: 1
+cosechas: 1
+hamberg: 1
+42627467: 1
+sentires: 1
+prohuerta: 1
+passo: 1
+unveiled: 1
+betina: 1

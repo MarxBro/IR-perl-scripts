@@ -236,3 +236,5 @@ for ($i=$desde; $i<=$hasta; $i++)
 
 close(OUT);
 
+#~ system('zenity --info --text="PROCESO TERMINADO"');
+
