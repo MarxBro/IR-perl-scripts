@@ -9,13 +9,13 @@ use IR::General4;
 ### Variables ###  
 #################
 
-$directorio_coleccion = './colecciones/T12012-qm';
+$directorio_coleccion = './colecciones/T12012-gr';
 
-$archivo_terminos = './salidas/ejercicio3/terminos.txt';
+$archivo_terminos = './salidas/ejercicio4/terminos.txt';
 
-$archivo_estadisticas = './salidas/ejercicio3/estadisticas.txt';
+$archivo_estadisticas = './salidas/ejercicio4/estadisticas.txt';
 
-$archivo_frecuencias = './salidas/ejercicio3/frecuencias.txt';
+$archivo_frecuencias = './salidas/ejercicio4/frecuencias.txt';
 
 #####################
 ### Procesamiento ###
