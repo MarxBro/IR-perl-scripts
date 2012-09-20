@@ -1,0 +1,12 @@
+Estadisticas de la coleccion:
+=============================
+Cantidad de documentos procesados: 10
+Cantidad de terminos extraidos: 2587
+Promedio de terminos por documento: 258
+Largo promedio de un termino: 7
+Nombre del documento mas largo: Doc1.txt
+Cantidad de terminos del documento mas largo: 702
+Nombre del documento mas corto: Doc8.txt
+Cantidad de terminos del documento mas corto: 185
+Cantidad de terminos con frecuencia 1 en la coleccion: 1602
+

@@ -1,0 +1,25 @@
+Los 10 terminos mas frencuentes de la coleccion:
+================================================
+agua: 75
+sodio: 68
+forma: 49
+compuestos: 46
+co2: 45
+h2o: 45
+carbono: 45
+hidrogeno: 43
+o2: 41
+acido: 41
+
+Los 10 terminos menos frencuentes de la coleccion:
+==================================================
+marmol: 1
+cuino: 1
+h2sio3: 1
+pyμ: 1
+perfecta: 1
+translucido: 1
+5h2o2: 1
+masivo: 1
+biologicos: 1
+reversible: 1
