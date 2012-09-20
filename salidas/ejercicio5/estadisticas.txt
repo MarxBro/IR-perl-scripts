@@ -1,0 +1,12 @@
+Estadisticas de la coleccion:
+=============================
+Cantidad de documentos procesados: 1
+Cantidad de terminos extraidos: 22919
+Promedio de terminos por documento: 22919
+Largo promedio de un termino: 7
+Nombre del documento mas largo: donq.txt
+Cantidad de terminos del documento mas largo: 22919
+Nombre del documento mas corto: 
+Cantidad de terminos del documento mas corto: 22919
+Cantidad de terminos con frecuencia 1 en la coleccion: 11356
+

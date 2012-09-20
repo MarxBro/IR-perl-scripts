@@ -1,0 +1,25 @@
+Los 10 terminos mas frencuentes de la coleccion:
+================================================
+don: 2652
+quijote: 1878
+sancho: 1863
+senor: 1063
+respondio: 1063
+habia: 1034
+merced: 900
+vuestra: 852
+caballero: 654
+dios: 531
+
+Los 10 terminos menos frencuentes de la coleccion:
+==================================================
+sartenes: 1
+mueres: 1
+adamada: 1
+remiente: 1
+fundamento: 1
+nizarani: 1
+viandantes: 1
+juntaron: 1
+berenjeneros: 1
+bastarda: 1
